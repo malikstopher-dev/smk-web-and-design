@@ -1,0 +1,42 @@
+export const typography = {
+  fontFamily: {
+    display: "'Bricolage Grotesque', 'SF Pro Display', system-ui, sans-serif",
+    body: "'Inter', 'SF Pro Text', system-ui, sans-serif",
+    mono: "'JetBrains Mono', 'SF Mono', monospace",
+  },
+  fontSize: {
+    hero: "clamp(72px, 10vw, 160px)",
+    headingXL: "clamp(2.5rem, 5vw, 5rem)",
+    headingLG: "clamp(2rem, 4.5vw, 4rem)",
+    headingMD: "clamp(1.5rem, 3vw, 2.5rem)",
+    bodyLG: "clamp(1rem, 1.5vw, 1.125rem)",
+    body: "0.875rem",
+    bodySmall: "0.813rem",
+    label: "0.688rem",
+    nav: "0.688rem",
+    caption: "0.75rem",
+  },
+  lineHeight: {
+    hero: "0.88",
+    heading: "1.05",
+    headingXL: "0.92",
+    body: "1.6",
+    bodyRelaxed: "1.7",
+  },
+  letterSpacing: {
+    hero: "-0.06em",
+    heading: "-0.03em",
+    label: "0.2em",
+    labelWide: "0.25em",
+    nav: "0.2em",
+    uppercase: "0.15em",
+  },
+  fontWeight: {
+    light: 300,
+    normal: 400,
+    medium: 500,
+    semibold: 600,
+    bold: 700,
+    black: 900,
+  },
+} as const;
