@@ -9,7 +9,7 @@ const BASE_URL = "https://smk.stopher-malik.co.za";
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: "SMK Web Design | Websites That Grow Your Business | Johannesburg",
+    default: "SMK Web Design | Web Design Studio Johannesburg",
     template: "%s — SMK Web Design",
   },
   description: "SMK Web Design builds high-performance websites for South African businesses. SEO-ready, conversion-optimised, delivered fast. Book a free consultation.",
@@ -21,17 +21,24 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "SMK Web Design | Websites That Grow Your Business",
+    title: "SMK Web Design | Web Design Studio",
     description: "SMK Web Design builds high-performance websites for South African businesses. SEO-ready, conversion-optimised, delivered fast.",
     siteName: "SMK Web Design",
     type: "website",
     locale: "en_ZA",
     url: BASE_URL,
+    images: [{
+      url: `${BASE_URL}/og-image-1200x630.png`,
+      width: 1200,
+      height: 630,
+      alt: "SMK Web Design — Web Design Studio Johannesburg",
+    }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "SMK Web Design | Websites That Grow Your Business",
+    title: "SMK Web Design | Web Design Studio",
     description: "SMK Web Design builds high-performance websites for South African businesses. SEO-ready, conversion-optimised, delivered fast.",
+    images: [`${BASE_URL}/og-image-1200x630.png`],
   },
   category: "Web Design",
   classification: "Web Design & Development",
