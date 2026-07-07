@@ -465,19 +465,24 @@ export const processSteps: ProcessStep[] = [
 
 export const testimonials: Testimonial[] = [
   {
-    quote: "Our bookings doubled within two weeks of launch. The website now handles reservations and menu inquiries automatically. Best money we've spent.",
-    name: "Sarah Thompson",
-    role: "Restaurant Owner",
+    quote: "Stopher delivered our website in record time and it looked absolutely amazing. We've been getting enquiries ever since we launched. Would highly recommend to any business owner.",
+    name: "Salem Home Innovation",
+    role: "Home Services, Johannesburg",
   },
   {
-    quote: "From zero online presence to qualified leads every day. The SEO work alone has been worth every rand. Highly recommend SMK.",
-    name: "John K.",
-    role: "Solar Company Director",
+    quote: "Stopher created a professional, clean and easy-to-understand website for our business. The work was well organized, modern, and helped us better present our services to clients.",
+    name: "JMOTO Electrical",
+    role: "Electrical Services, Gauteng",
   },
   {
-    quote: "Professional, responsive, and delivered ahead of schedule. Our new website has completely transformed how clients perceive our brand.",
-    name: "Michael Selrahc",
-    role: "Principal Architect",
+    quote: "Professional, fast, and understood exactly what we needed. Our restaurant site has made bookings so much easier. Very pleased with the result and the whole experience.",
+    name: "101 On Fraser",
+    role: "Restaurant, Johannesburg",
+  },
+  {
+    quote: "Stopher is a talented designer who truly cares about the end result. He kept us informed throughout the project and delivered beyond our expectations. Excellent work.",
+    name: "JKJ SolarTech",
+    role: "Solar, CCTV & Electrical Services, Gauteng",
   },
 ];
 
