@@ -56,7 +56,7 @@ export function ServicesSection() {
             <motion.div key={service.id} variants={itemVariants}>
               <Link
                 href={`/services/${service.slug}`}
-                className="group relative flex flex-col md:flex-row md:items-center gap-4 md:gap-12 py-8 md:py-10 border-t border-white/[0.04] transition-all duration-500 hover:opacity-80"
+                className="group relative flex flex-col md:flex-row md:items-center gap-4 md:gap-12 py-8 md:py-10 border-t border-white/[0.04] transition-all duration-500 hover:opacity-90 hover:bg-[var(--color-accent-soft)] hover:px-6 -mx-6 rounded-lg"
                 data-cursor="link"
               >
                 <span className="text-[11px] font-mono tracking-[0.15em] text-[var(--color-text-dim)] shrink-0 md:w-12">
@@ -68,7 +68,7 @@ export function ServicesSection() {
                     style={{ color: "var(--color-text-primary)" }}
                   >
                     {service.title}
-                    <span className="inline-block ml-3 text-[var(--color-accent)] opacity-0 group-hover:opacity-100 transition-all duration-500">→</span>
+                    <span className="inline-block ml-3 text-[var(--color-accent)] opacity-0 translate-x-[-8px] group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-500">→</span>
                   </h3>
                   <p className="text-sm mt-2 max-w-xl leading-relaxed text-[var(--color-text-muted)]">
                     {shortDescriptions[service.id]}

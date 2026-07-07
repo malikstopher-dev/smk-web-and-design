@@ -27,6 +27,9 @@ export function TestimonialsSection() {
         </motion.div>
 
         <div className="relative min-h-[200px] md:min-h-[180px] mt-10">
+          <span className="absolute left-1/2 -translate-x-1/2 -top-8 text-[120px] md:text-[180px] font-[var(--font-display)] leading-none text-[var(--color-accent)]/5 select-none pointer-events-none" aria-hidden="true">
+            &ldquo;
+          </span>
           <AnimatePresence mode="wait">
             <motion.div
               key={active}
@@ -37,10 +40,10 @@ export function TestimonialsSection() {
               transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
             >
               <blockquote
-                className="heading-md max-w-3xl mx-auto font-[var(--font-display)] italic"
+                className="heading-md max-w-3xl mx-auto font-[var(--font-display)] italic relative"
                 style={{ color: "var(--color-text-primary)" }}
               >
-                &ldquo;{testimonials[active].quote}&rdquo;
+                {testimonials[active].quote}
               </blockquote>
               <div className="mt-8">
                 <p className="text-sm font-medium text-[var(--color-text-primary)]">

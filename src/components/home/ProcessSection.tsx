@@ -49,6 +49,7 @@ export function ProcessSection() {
               <span className="text-[11px] font-mono tracking-[0.15em] text-[var(--color-text-dim)]">
                 {step.number}
               </span>
+              <span className="block w-8 h-px bg-[var(--color-accent)]/30 mt-3 mb-4" />
               <h3
                 className="text-xl md:text-2xl font-[var(--font-display)] tracking-[-0.01em] mt-4 mb-3"
                 style={{ color: "var(--color-text-primary)" }}
@@ -68,8 +69,9 @@ export function ProcessSection() {
               <span className="text-[11px] font-mono tracking-[0.15em] text-[var(--color-text-dim)]">
                 {step.number}
               </span>
+              <span className="block w-8 h-px bg-[var(--color-accent)]/30 mt-3 mb-4" />
               <h3
-                className="text-xl font-[var(--font-display)] mt-3 mb-3"
+                className="text-xl font-[var(--font-display)] mt-0 mb-3"
                 style={{ color: "var(--color-text-primary)" }}
               >
                 {step.title}

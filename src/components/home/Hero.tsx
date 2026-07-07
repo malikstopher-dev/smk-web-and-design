@@ -66,9 +66,12 @@ export function Hero() {
             animate="visible"
             custom={0.35}
           >
-            <p className="text-base md:text-lg leading-relaxed max-w-md text-[var(--color-text-muted)]">
-              Johannesburg-based web design studio creating premium websites that convert visitors into customers.
-            </p>
+            <div className="flex-1">
+              <p className="text-base md:text-lg leading-relaxed max-w-md text-[var(--color-text-muted)]">
+                Johannesburg-based web design studio creating premium websites that convert visitors into customers.
+              </p>
+              <div className="hidden md:block w-20 h-px bg-[var(--color-accent)]/30 mt-8" />
+            </div>
             <div className="flex flex-col sm:flex-row gap-4 shrink-0">
               <Link href="/contact" className="btn-accent">
                 Start Your Project →

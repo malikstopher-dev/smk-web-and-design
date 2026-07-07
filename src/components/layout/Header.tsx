@@ -59,7 +59,7 @@ export function Header() {
         <div className="hidden md:flex items-center gap-6">
           <Link
             href="/contact"
-            className="px-6 py-2.5 rounded-full bg-[var(--color-accent)] text-[#0A0A0F] text-[11px] font-bold uppercase tracking-[0.12em] hover:bg-[var(--color-accent-hover)] transition-all duration-300"
+            className="px-6 py-2.5 rounded-full bg-[var(--color-accent)] text-[#0A0A0F] text-[11px] font-bold uppercase tracking-[0.12em] hover:bg-[var(--color-accent-hover)] hover:shadow-[0_0_20px_rgba(191,255,0,0.2)] transition-all duration-300"
           >
             Start a Project
           </Link>

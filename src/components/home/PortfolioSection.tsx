@@ -37,12 +37,12 @@ export function PortfolioSection() {
                 <div className="grid md:grid-cols-12 gap-8 md:gap-12 items-center">
                   <div className={`md:col-span-7 ${isOdd ? "md:order-2 md:col-start-6" : ""}`}>
                     <Link href={`/portfolio/${project.slug}`} data-cursor="project">
-                      <div className="relative overflow-hidden rounded-2xl bg-[var(--color-surface)]" style={{ aspectRatio: "16/11" }}>
+                      <div className="relative overflow-hidden rounded-2xl bg-[var(--color-surface)] ring-1 ring-white/[0.06]" style={{ aspectRatio: "16/11" }}>
                         <Image
                           src={project.image}
                           alt={project.title}
                           fill
-                          className="object-cover transition-all duration-700 hover:scale-105"
+                          className="project-image"
                           sizes="(max-width: 768px) 100vw, 60vw"
                         />
                       </div>
