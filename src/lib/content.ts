@@ -87,7 +87,7 @@ export const portfolioProjects: PortfolioProject[] = [
     title: "Salem Home Innovation",
     category: "Home Services",
     description: "Full business website generating enquiries from day one",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?q=85&w=1200&auto=format&fit=crop",
+    image: "/images/portfolio/salem-home-innovation.jpg",
     slug: "salem-home-innovation",
     liveUrl: "https://salemhi.co.za",
     tech: ["HTML/CSS", "JS", "SEO"],
@@ -103,7 +103,7 @@ export const portfolioProjects: PortfolioProject[] = [
     title: "The Boma Café",
     category: "Restaurant",
     description: "Online reservations doubled within two weeks of launch",
-    image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=85&w=1200&auto=format&fit=crop",
+    image: "/images/portfolio/the-boma-cafe.png",
     slug: "the-boma-cafe",
     liveUrl: "https://the-boma-cafe.vercel.app",
     tech: ["Next.js", "UI/UX", "SEO"],
@@ -119,7 +119,7 @@ export const portfolioProjects: PortfolioProject[] = [
     title: "Selrahc Architects",
     category: "Architecture",
     description: "Opened the DRC market for a premium architecture studio",
-    image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?q=85&w=1200&auto=format&fit=crop",
+    image: "/images/portfolio/selrahc-architects.jpg",
     slug: "selrahc-architects",
     liveUrl: "https://www.selrahcarchitects.com",
     tech: ["Next.js", "UI/UX", "SEO", "Bilingual"],
@@ -135,7 +135,7 @@ export const portfolioProjects: PortfolioProject[] = [
     title: "Tomy Global Services",
     category: "Business Services",
     description: "Professional business services website with clear service presentation",
-    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=85&w=1200&auto=format&fit=crop",
+    image: "/images/portfolio/tomy-global-services-pages.png",
     slug: "tomy-global-services-pages",
     liveUrl: "https://tomy-global-services.pages.dev/",
     tech: ["HTML/CSS", "JS", "SEO"],
@@ -151,7 +151,7 @@ export const portfolioProjects: PortfolioProject[] = [
     title: "Chicken Fiestas",
     category: "Fast Food / Restaurant",
     description: "Vibrant fast food restaurant website with online ordering and menu showcase",
-    image: "https://images.unsplash.com/photo-1561758033-d89a9ad46330?q=85&w=1200&auto=format&fit=crop",
+    image: "/images/portfolio/chicken-fiestas.png",
     slug: "chicken-fiestas",
     liveUrl: "https://chicken-fiestas2.malikstopher.workers.dev/",
     tech: ["HTML/CSS", "JS", "Cloudflare"],
@@ -167,7 +167,7 @@ export const portfolioProjects: PortfolioProject[] = [
     title: "B.E. Mhlanga Services",
     category: "Maintenance Services",
     description: "Multi-service business website driving maintenance enquiries",
-    image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=85&w=1200&auto=format&fit=crop",
+    image: "/images/portfolio/be-mhlanga-services.png",
     slug: "be-mhlanga-services",
     liveUrl: "https://bemhlanga.co.za",
     tech: ["HTML/CSS", "JS", "Lead Gen"],
@@ -183,7 +183,7 @@ export const portfolioProjects: PortfolioProject[] = [
     title: "Tomy Global Services",
     category: "Business Services",
     description: "Business services website built for client acquisition",
-    image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?q=85&w=1200&auto=format&fit=crop",
+    image: "/images/portfolio/tomy-global-services-vercel.png",
     slug: "tomy-global-services-vercel",
     liveUrl: "https://tomy-global-services.vercel.app/",
     tech: ["React", "CSS", "Cloudflare"],
@@ -199,7 +199,7 @@ export const portfolioProjects: PortfolioProject[] = [
     title: "JMoto Electrical",
     category: "Electrical",
     description: "Professional electrical services website with service presentation and contact flow",
-    image: "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?q=85&w=1200&auto=format&fit=crop",
+    image: "/images/portfolio/jmoto-electrical.png",
     slug: "jmoto-electrical",
     liveUrl: "https://jmoto-website.vercel.app",
     tech: ["HTML/CSS", "JS", "SEO"],
@@ -215,7 +215,7 @@ export const portfolioProjects: PortfolioProject[] = [
     title: "Electrolight",
     category: "Electrical",
     description: "Electrical services website for clear service communication and lead generation",
-    image: "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?q=85&w=1200&auto=format&fit=crop",
+    image: "/images/portfolio/electrolight.png",
     slug: "electrolight",
     liveUrl: "https://electrolight.pages.dev",
     tech: ["HTML/CSS", "JS"],
@@ -231,7 +231,7 @@ export const portfolioProjects: PortfolioProject[] = [
     title: "JKJ SolarTech",
     category: "Solar / CCTV",
     description: "Zero online presence to qualified leads every day",
-    image: "https://images.unsplash.com/photo-1504307651254-84280e7f79c8?q=85&w=1200&auto=format&fit=crop",
+    image: "/images/portfolio/jkj-solartech.jpg",
     slug: "jkj-solartech",
     liveUrl: "https://jkjsolatech.co.za",
     tech: ["HTML/CSS", "JS", "SEO"],
@@ -247,7 +247,7 @@ export const portfolioProjects: PortfolioProject[] = [
     title: "Cleanisa Solutions",
     category: "Cleaning",
     description: "Cleaning services website designed for trust and lead conversion",
-    image: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=85&w=1200&auto=format&fit=crop",
+    image: "/images/portfolio/cleanisa-solutions.png",
     slug: "cleanisa-solutions",
     liveUrl: "https://cleanisa-solutions.pages.dev",
     tech: ["HTML/CSS", "JS", "Lead Gen"],
@@ -263,7 +263,7 @@ export const portfolioProjects: PortfolioProject[] = [
     title: "UZAPA Construction",
     category: "Construction",
     description: "Credibility-building website for a DRC-based construction firm",
-    image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=85&w=1200&auto=format&fit=crop",
+    image: "/images/portfolio/uzapa-construction.jpg",
     slug: "uzapa-construction",
     liveUrl: "https://uzapardc.pages.dev",
     tech: ["React", "Branding", "SEO"],
@@ -279,7 +279,7 @@ export const portfolioProjects: PortfolioProject[] = [
     title: "Le Centre",
     category: "Lounge / Restaurant",
     description: "Premium restaurant and lounge in Kinshasa with international cuisine",
-    image: "https://images.unsplash.com/photo-1514933651103-005eec06c04b?q=85&w=1200&auto=format&fit=crop",
+    image: "/images/portfolio/le-centre.jpg",
     slug: "le-centre",
     liveUrl: "https://lecentre-kin.pages.dev",
     tech: ["React", "CSS", "Cloudflare"],
@@ -295,7 +295,7 @@ export const portfolioProjects: PortfolioProject[] = [
     title: "Babooshka Catering",
     category: "Catering",
     description: "Professional catering website with visual presentation and enquiry flow",
-    image: "https://images.unsplash.com/photo-1555244162-803834f70033?q=85&w=1200&auto=format&fit=crop",
+    image: "/images/portfolio/babooshka-catering.png",
     slug: "babooshka-catering",
     liveUrl: "https://babooshka-catering.pages.dev",
     tech: ["HTML/CSS", "Branding", "SEO"],
@@ -311,7 +311,7 @@ export const portfolioProjects: PortfolioProject[] = [
     title: "101 On Fraser",
     category: "Restaurant",
     description: "Booking-first restaurant website making table reservations seamless",
-    image: "https://images.unsplash.com/photo-1559339352-11d035aa65de?q=85&w=1200&auto=format&fit=crop",
+    image: "/images/portfolio/one-o-one-on-fraser.jpg",
     slug: "one-o-one-on-fraser",
     liveUrl: "https://101onfraser.pages.dev",
     tech: ["React", "CSS", "Cloudflare"],
@@ -327,7 +327,7 @@ export const portfolioProjects: PortfolioProject[] = [
     title: "Penzura",
     category: "Web App",
     description: "Premium web application for South Africa's cleaning and hygiene supply sector",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=85&w=1200&auto=format&fit=crop",
+    image: "/images/portfolio/penzura.jpg",
     slug: "penzura",
     liveUrl: "https://penzura.pages.dev",
     tech: ["React", "Node.js", "UX"],
@@ -343,7 +343,7 @@ export const portfolioProjects: PortfolioProject[] = [
     title: "Marché LT Eben-Ezer",
     category: "E-Commerce",
     description: "Bilingual e-commerce connecting the African diaspora with familiar foods in Montreal",
-    image: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?q=85&w=1200&auto=format&fit=crop",
+    image: "/images/portfolio/marche-lt-eben-ezer.jpg",
     slug: "marche-lt-eben-ezer",
     liveUrl: "https://marchelteben-ezer.com",
     tech: ["HTML/CSS", "JS", "E-Commerce"],
@@ -359,7 +359,7 @@ export const portfolioProjects: PortfolioProject[] = [
     title: "Cook's Bistro",
     category: "Fine Dining",
     description: "Premium Mediterranean restaurant in Kinshasa with elegant design and online reservations",
-    image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=85&w=1200&auto=format&fit=crop",
+    image: "/images/portfolio/cooks-bistro.jpg",
     slug: "cooks-bistro",
     liveUrl: "https://cooks-bistro.pages.dev",
     tech: ["HTML/CSS", "JS", "SEO"],
@@ -375,7 +375,7 @@ export const portfolioProjects: PortfolioProject[] = [
     title: "Limoncello",
     category: "Restaurant",
     description: "Authentic Italian in Kinshasa with TripAdvisor #4 ranking and online ordering",
-    image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=85&w=1200&auto=format&fit=crop",
+    image: "/images/portfolio/limoncello.jpg",
     slug: "limoncello",
     liveUrl: "https://limoncello.pages.dev",
     tech: ["React", "Node.js", "UX"],
@@ -391,7 +391,7 @@ export const portfolioProjects: PortfolioProject[] = [
     title: "Chefs Buxaba",
     category: "Chef / Catering",
     description: "Chef and catering website with premium food-service branding",
-    image: "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?q=85&w=1200&auto=format&fit=crop",
+    image: "/images/portfolio/chefs-buxaba.png",
     slug: "chefs-buxaba",
     liveUrl: "https://chefsbuxaba.pages.dev",
     tech: ["HTML/CSS", "Branding"],
@@ -407,7 +407,7 @@ export const portfolioProjects: PortfolioProject[] = [
     title: "La Dolce Vita",
     category: "Restaurant",
     description: "Authentic Italian dining in Kinshasa with wood-fired pizza and reservation system",
-    image: "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?q=85&w=1200&auto=format&fit=crop",
+    image: "/images/portfolio/la-dolce-vita.jpg",
     slug: "la-dolce-vita",
     liveUrl: "https://ladolcevita-kin.pages.dev",
     tech: ["HTML/CSS", "JS", "SEO"],
@@ -423,7 +423,7 @@ export const portfolioProjects: PortfolioProject[] = [
     title: "Levante",
     category: "Lebanese",
     description: "Authentic Lebanese cuisine coming soon to Kinshasa with a new branch opening",
-    image: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?q=85&w=1200&auto=format&fit=crop",
+    image: "/images/portfolio/levante.jpg",
     slug: "levante",
     liveUrl: "https://levante-kin.pages.dev",
     tech: ["React", "CSS", "Branding"],
@@ -1101,6 +1101,1055 @@ Our work with JKJ SolarTech and JMoto Electrical shows how the right website can
 ## Case Study
 
 Our work with Cleanisa Solutions shows how the right website can generate consistent cleaning contract enquiries.`,
+  },
+  {
+    slug: "mobile-first-responsive-web-design",
+    title: "Mobile-First Responsive Web Design — Why It Matters in 2026",
+    description: "Learn why mobile-first responsive web design is essential for your business website in 2026 and how it impacts SEO, user experience, and conversions.",
+    date: "2026-10-01",
+    readTime: "7 min read",
+    category: "Web Design",
+    tags: ["mobile-first design", "responsive web design", "SEO", "user experience", "South Africa"],
+    author: "Stopher Malik",
+    content: `More than 70% of web traffic in South Africa comes from mobile devices. If your website isn't optimised for mobile, you're losing customers.
+
+## What Is Mobile-First Design?
+
+Mobile-first means designing for the smallest screen first, then scaling up. This approach ensures your site works perfectly on smartphones before adding complexity for larger screens.
+
+## Why It Matters for SEO
+
+Google uses mobile-first indexing, meaning it primarily uses the mobile version of your site for ranking and indexing. A non-responsive site will struggle to rank.
+
+## Key Principles
+
+- **Touch-friendly navigation** — buttons and links must be easy to tap
+- **Fast loading times** — mobile users expect pages to load in under 3 seconds
+- **Readable text** — no pinch-zooming required
+- **Optimised images** — serve appropriately sized images for each device
+
+## How We Implement Mobile-First
+
+At SMK Web Design, every site we build starts with mobile. We use fluid grids, flexible images, and CSS media queries to create seamless experiences across all devices.
+
+The result? Higher search rankings, lower bounce rates, and more conversions from mobile visitors.`,
+  },
+  {
+    slug: "website-accessibility-compliance-south-africa",
+    title: "Website Accessibility Compliance in South Africa — A Complete Guide",
+    description: "Learn how to make your website accessible to all users, comply with WCAG standards, and reach a wider audience in South Africa.",
+    date: "2026-10-05",
+    readTime: "8 min read",
+    category: "Web Design",
+    tags: ["web accessibility", "WCAG", "inclusive design", "South Africa", "compliance"],
+    author: "Stopher Malik",
+    content: `Web accessibility ensures people with disabilities can use your website effectively. In South Africa, the Constitution and the Promotion of Equality Act support equal access to information.
+
+## Why Accessibility Matters
+
+Over 4 million South Africans have some form of disability. An inaccessible website excludes potential customers and may expose your business to legal risk.
+
+## WCAG Guidelines
+
+The Web Content Accessibility Guidelines (WCAG) provide a framework for creating accessible websites. Key principles include:
+
+- **Perceivable** — information must be presentable to all users
+- **Operable** — interface elements must be usable by everyone
+- **Understandable** — content must be clear and predictable
+- **Robust** — content must work with assistive technologies
+
+## Practical Steps
+
+- Add descriptive alt text to all images
+- Ensure sufficient colour contrast
+- Make all functionality available via keyboard
+- Provide captions for video content
+- Use semantic HTML structure
+
+## SEO Benefits
+
+Accessibility improvements often align with SEO best practices. Proper heading structure, descriptive link text, and image alt attributes help both users and search engines understand your content.`,
+  },
+  {
+    slug: "ui-vs-ux-design-explained",
+    title: "UI vs UX Design Explained — What's the Difference and Why You Need Both",
+    description: "Understand the difference between UI and UX design, why both matter for your website, and how they work together to create exceptional user experiences.",
+    date: "2026-10-10",
+    readTime: "6 min read",
+    category: "Web Design",
+    tags: ["UI design", "UX design", "user experience", "user interface", "web design basics"],
+    author: "Stopher Malik",
+    content: `UI and UX are often used interchangeably, but they refer to different aspects of the design process. Here's what you need to know.
+
+## What Is UX Design?
+
+User Experience (UX) design focuses on the overall feel of the experience. UX designers research user needs, create wireframes, and design the structure and flow of a website.
+
+## What Is UI Design?
+
+User Interface (UI) design focuses on the visual elements. UI designers choose colours, typography, buttons, icons, and create the polished final look.
+
+## How They Work Together
+
+Think of a website as a house. UX is the floor plan — the layout that makes it easy to move around. UI is the interior design — the paint colours, furniture, and decorative touches.
+
+## Why Your Business Needs Both
+
+- Good UX without good UI = functional but forgettable
+- Good UI without good UX = beautiful but frustrating
+- Both together = an experience that delights and converts
+
+At SMK Web Design, we integrate UI and UX from the start, ensuring your website looks premium and works flawlessly.`,
+  },
+  {
+    slug: "website-speed-optimization-techniques",
+    title: "Website Speed Optimization Techniques — Boost Your Site's Performance",
+    description: "Learn proven techniques to speed up your website, improve user experience, and boost SEO rankings with these optimisation strategies.",
+    date: "2026-10-15",
+    readTime: "9 min read",
+    category: "Web Design",
+    tags: ["website speed", "performance", "SEO", "core web vitals", "optimisation"],
+    author: "Stopher Malik",
+    content: `Website speed directly impacts user experience, SEO rankings, and conversion rates. A one-second delay can reduce conversions by 7%.
+
+## Why Speed Matters
+
+- **SEO** — Google uses page speed as a ranking factor
+- **User experience** — 53% of mobile users abandon sites that take over 3 seconds to load
+- **Conversions** — faster sites generate more sales and enquiries
+
+## Key Optimisation Techniques
+
+1. **Optimise images** — compress without losing quality, use modern formats like WebP
+2. **Enable browser caching** — store static files locally for returning visitors
+3. **Minify CSS and JavaScript** — remove unnecessary characters and whitespace
+4. **Use a CDN** — deliver content from servers closer to your users
+5. **Reduce server response time** — choose reliable hosting and optimise databases
+
+## Core Web Vitals
+
+Google's Core Web Vitals measure real-world user experience:
+
+- **LCP** (Largest Contentful Paint) — loading performance, should be under 2.5 seconds
+- **FID** (First Input Delay) — interactivity, should be under 100ms
+- **CLS** (Cumulative Layout Shift) — visual stability, should be under 0.1
+
+We optimise every site we build to achieve excellent Core Web Vitals scores.`,
+  },
+  {
+    slug: "single-page-vs-multi-page-websites",
+    title: "Single Page vs Multi-Page Websites — Which Is Right for Your Business?",
+    description: "Compare single-page and multi-page website designs to determine the best structure for your business goals, SEO, and user experience.",
+    date: "2026-10-20",
+    readTime: "7 min read",
+    category: "Web Design",
+    tags: ["single page website", "multi page website", "website structure", "SEO", "design choice"],
+    author: "Stopher Malik",
+    content: `Choosing between a single-page and multi-page website depends on your business goals, content volume, and SEO strategy.
+
+## Single-Page Websites
+
+All content is displayed on one long page with smooth scrolling to different sections.
+
+**Best for:**
+- Landing pages and promotional campaigns
+- Small businesses with minimal content
+- Portfolio or personal branding sites
+
+**Pros:** Simple navigation, faster development, focused user journey
+**Cons:** Limited SEO potential, harder to scale, weaker content hierarchy
+
+## Multi-Page Websites
+
+Content is organised across multiple pages with a navigable structure.
+
+**Best for:**
+- Businesses with diverse service offerings
+- E-commerce stores with many products
+- Content-rich sites with blogs and resources
+
+**Pros:** Better SEO structure, easier to scale, deeper content, targeted landing pages
+**Cons:** More complex navigation, longer development time
+
+## Our Recommendation
+
+For most businesses in South Africa, a multi-page website delivers better long-term value. It supports comprehensive SEO strategies, allows for targeted content, and scales as your business grows.
+
+We help clients choose the right structure during our discovery phase.`,
+  },
+  {
+    slug: "progressive-web-apps-for-business",
+    title: "Progressive Web Apps for Business — The Future of Mobile Engagement",
+    description: "Discover how Progressive Web Apps (PWAs) can transform your mobile strategy with app-like experiences without the app store barriers.",
+    date: "2026-10-25",
+    readTime: "8 min read",
+    category: "Web Design",
+    tags: ["PWA", "progressive web app", "mobile", "engagement", "technology"],
+    author: "Stopher Malik",
+    content: `Progressive Web Apps combine the best of websites and mobile apps. They load like regular websites but offer app-like functionality.
+
+## What Is a PWA?
+
+A PWA is a website that uses modern web capabilities to deliver an app-like experience. Users can install it on their device, receive push notifications, and access content offline.
+
+## Benefits for South African Businesses
+
+- **No app store required** — users access directly from the browser
+- **Works offline** — critical for areas with unreliable internet
+- **Faster loading** — cached content loads instantly
+- **Lower data usage** — optimised for mobile networks
+- **Higher engagement** — push notifications bring users back
+
+## Key Features
+
+- Service workers for offline functionality
+- Web app manifest for installability
+- HTTPS for security
+- Responsive design for all screen sizes
+- App-like navigation and interactions
+
+## Is a PWA Right for You?
+
+PWAs are ideal for media sites, e-commerce stores, service platforms, and any business that wants to increase mobile engagement without the cost of native app development.
+
+At SMK Web Design, we build PWAs that deliver exceptional mobile experiences for South African users.`,
+  },
+  {
+    slug: "website-maintenance-importance",
+    title: "Website Maintenance — Why Regular Updates Are Essential for Your Business",
+    description: "Learn why regular website maintenance is critical for security, performance, SEO rankings, and the long-term success of your online presence.",
+    date: "2026-10-30",
+    readTime: "6 min read",
+    category: "Web Design",
+    tags: ["website maintenance", "security", "updates", "performance", "business"],
+    author: "Stopher Malik",
+    content: `Your website is never really finished. Regular maintenance keeps it secure, fast, and effective at generating business.
+
+## Why Maintenance Matters
+
+- **Security** — outdated software is vulnerable to hacks and malware
+- **Performance** — regular optimisations keep your site loading fast
+- **SEO** — search engines favour fresh, well-maintained sites
+- **User experience** — broken links and outdated content frustrate visitors
+
+## What Regular Maintenance Includes
+
+1. **Security updates** — patching CMS, plugins, and server software
+2. **Backup creation** — ensuring you can restore your site if needed
+3. **Performance monitoring** — checking speed and Core Web Vitals
+4. **Content updates** — refreshing text, images, and offers
+5. **Broken link checks** — fixing links that lead to 404 errors
+
+## The Cost of Neglect
+
+A neglected website can lose rankings, get hacked, and drive away potential customers. Investing in maintenance protects your digital asset.
+
+We offer ongoing maintenance plans that keep your site secure, fast, and profitable.`,
+  },
+  {
+    slug: "web-design-cost-south-africa-2026",
+    title: "Web Design Cost South Africa 2026 — What You Should Expect to Pay",
+    description: "A transparent breakdown of web design costs in South Africa for 2026, from basic business sites to premium e-commerce platforms.",
+    date: "2026-11-01",
+    readTime: "7 min read",
+    category: "Web Design",
+    tags: ["web design cost", "South Africa", "pricing", "website budget", "small business"],
+    author: "Stopher Malik",
+    content: `Understanding web design costs helps you budget effectively and choose the right package for your business.
+
+## Price Ranges in South Africa
+
+- **Basic business website** — R4,000 to R8,000 (3-5 pages, template-based)
+- **Professional website** — R8,000 to R20,000 (custom design, 5-10 pages)
+- **Premium website** — R20,000 to R50,000 (fully custom, advanced features)
+- **E-commerce store** — R15,000 to R60,000 (product catalogue, payment integration)
+
+## What Affects the Cost
+
+- Number of pages and complexity
+- Custom design vs template
+- Required features (booking systems, payment gateways)
+- SEO setup and content creation
+- Ongoing maintenance and support
+
+## Hidden Costs to Watch For
+
+- Domain registration (R100-R300/year)
+- Web hosting (R200-R1,000/month)
+- SSL certificate (often included with hosting)
+- Content creation and copywriting
+- Monthly maintenance fees
+
+## Get What You Pay For
+
+A cheap website often costs more in the long run through lost business and redesign costs. Invest in quality web design that generates returns.
+
+We provide transparent pricing with no hidden fees. Every quote is itemised so you know exactly what you're paying for.`,
+  },
+  {
+    slug: "local-seo-strategy-johannesburg",
+    title: "Local SEO Strategy Johannesburg — Dominate Local Search in 2026",
+    description: "A comprehensive guide to local SEO for Johannesburg businesses. Learn how to rank higher in local search results and attract more customers.",
+    date: "2026-11-03",
+    readTime: "10 min read",
+    category: "SEO",
+    tags: ["local SEO", "Johannesburg", "Google Business Profile", "local search", "South Africa"],
+    author: "Stopher Malik",
+    content: `Local SEO helps Johannesburg businesses get found by nearby customers searching for their services. Here's how to dominate local search.
+
+## Why Local SEO Matters
+
+When someone searches for "web designer Johannesburg" or "plumber near me", Google shows local results. If you're not optimised for local search, you're invisible to these high-intent customers.
+
+## Key Local SEO Tactics
+
+1. **Google Business Profile** — claim and optimise your profile with accurate info, photos, and reviews
+2. **Local keywords** — target searches with location modifiers like "Johannesburg", "Sandton", "Fourways"
+3. **NAP consistency** — ensure your Name, Address, Phone number is identical everywhere online
+4. **Local citations** — get listed in South African business directories
+5. **Local content** — create content relevant to your Johannesburg audience
+
+## Google Business Profile Optimisation
+
+- Complete every section of your profile
+- Add high-quality photos of your business
+- Respond to all reviews promptly
+- Post regular updates and offers
+- Choose the most accurate categories
+
+## Measuring Success
+
+Track your local search rankings, Google Business Profile insights, and the number of direction requests and phone calls generated from local search.
+
+We've helped Johannesburg businesses from Salem Home Innovation to 101 On Fraser dominate their local search markets.`,
+  },
+  {
+    slug: "technical-seo-audit-checklist",
+    title: "Technical SEO Audit Checklist — Find and Fix Hidden Issues",
+    description: "A comprehensive technical SEO audit checklist to identify and fix issues that are holding your website back from ranking higher on Google.",
+    date: "2026-11-06",
+    readTime: "10 min read",
+    category: "SEO",
+    tags: ["technical SEO", "audit", "checklist", "SEO issues", "website optimisation"],
+    author: "Stopher Malik",
+    content: `A technical SEO audit reveals hidden issues that prevent your site from ranking well. Here's our comprehensive checklist.
+
+## Crawlability and Indexing
+
+- Check robots.txt for accidental blocking
+- Review XML sitemap structure and submission
+- Ensure important pages are crawlable and indexable
+- Fix broken internal links (404 errors)
+- Check for duplicate content issues
+
+## Site Architecture
+
+- Use clear, logical URL structures
+- Implement breadcrumb navigation
+- Create a flat site hierarchy (important pages within 3 clicks)
+- Use internal linking to distribute page authority
+
+## Page Speed and Core Web Vitals
+
+- Test LCP, FID, and CLS scores
+- Optimise images and videos
+- Minimise render-blocking resources
+- Enable compression and browser caching
+- Review server response times
+
+## Mobile Optimisation
+
+- Verify mobile responsiveness
+- Check touch target sizes
+- Ensure text is readable without zooming
+- Test mobile page speed separately
+
+## Structured Data
+
+- Implement Schema.org markup for your business type
+- Use FAQ schema for question pages
+- Add review schema for testimonial pages
+- Test structured data with Google's Rich Results Test
+
+Run this audit quarterly to maintain strong technical SEO foundations.`,
+  },
+  {
+    slug: "content-marketing-strategy-guide",
+    title: "Content Marketing Strategy Guide — Attract and Convert Customers",
+    description: "Learn how to create a content marketing strategy that attracts qualified leads, builds authority, and drives business growth in South Africa.",
+    date: "2026-11-09",
+    readTime: "9 min read",
+    category: "SEO",
+    tags: ["content marketing", "strategy", "SEO", "blogging", "lead generation"],
+    author: "Stopher Malik",
+    content: `Content marketing is one of the most effective ways to attract qualified leads and build your brand's authority.
+
+## What Is Content Marketing?
+
+Content marketing involves creating and distributing valuable, relevant content to attract and retain a clearly defined audience. It's not about selling — it's about educating and building trust.
+
+## Building a Content Strategy
+
+1. **Define your goals** — brand awareness, lead generation, customer retention
+2. **Know your audience** — create buyer personas and identify their pain points
+3. **Keyword research** — find topics your audience is searching for
+4. **Create a content calendar** — plan regular publishing schedules
+5. **Choose formats** — blog posts, videos, infographics, podcasts
+
+## Content Types That Work
+
+- **How-to guides** — solve specific problems for your audience
+- **Case studies** — show real results from your work
+- **Industry insights** — establish thought leadership
+- **List posts** — quick, scannable value for busy readers
+- **FAQ content** — answers to common customer questions
+
+## Measuring Success
+
+Track organic traffic, keyword rankings, engagement metrics, and lead conversions from your content. Adjust your strategy based on what works.
+
+Our blog generates consistent organic traffic and leads for SMK Web Design. A well-executed content strategy compounds over time.`,
+  },
+  {
+    slug: "google-business-profile-optimization",
+    title: "Google Business Profile Optimisation — Complete Guide for South African Businesses",
+    description: "Optimise your Google Business Profile to appear in local search results, attract more customers, and build trust with reviews and accurate information.",
+    date: "2026-11-12",
+    readTime: "8 min read",
+    category: "SEO",
+    tags: ["Google Business Profile", "local SEO", "Google Maps", "reviews", "South Africa"],
+    author: "Stopher Malik",
+    content: `Your Google Business Profile is often the first thing potential customers see when searching for your business. Here's how to optimise it.
+
+## Why It Matters
+
+Google Business Profiles appear in local search results and Google Maps. They provide essential information at a glance and can significantly impact whether a customer chooses your business.
+
+## Optimisation Checklist
+
+1. **Verify your listing** — Google must confirm you're a real business
+2. **Complete every field** — business name, address, phone, website, hours, categories
+3. **Add photos** — businesses with photos receive 42% more direction requests
+4. **Choose the right categories** — primary and secondary categories matter
+5. **Write a compelling description** — use relevant keywords naturally
+
+## Managing Reviews
+
+- Respond to all reviews, positive and negative
+- Thank customers for positive feedback
+- Address negative reviews professionally
+- Encourage satisfied customers to leave reviews
+- Never buy fake reviews — Google penalises this
+
+## Posts and Updates
+
+Use Google Posts to share offers, events, and updates. These appear in your profile and keep it fresh.
+
+Q&A Section — monitor and answer questions customers ask about your business.
+
+We include GBP optimisation in every local SEO package.`,
+  },
+  {
+    slug: "link-building-strategies-for-seo",
+    title: "Link Building Strategies for SEO — Earn Quality Backlinks in 2026",
+    description: "Learn effective link building strategies to earn high-quality backlinks that boost your SEO authority and improve search rankings.",
+    date: "2026-11-15",
+    readTime: "9 min read",
+    category: "SEO",
+    tags: ["link building", "backlinks", "SEO", "off-page SEO", "authority"],
+    author: "Stopher Malik",
+    content: `Backlinks remain one of Google's most important ranking factors. Quality links signal to search engines that your content is valuable and trustworthy.
+
+## What Makes a Good Backlink?
+
+- **Relevance** — links from sites in your industry or location
+- **Authority** — links from websites with strong domain authority
+- **Natural placement** — links within editorial content, not sidebars or footers
+- **Diverse sources** — links from multiple different domains
+
+## Effective Link Building Strategies
+
+1. **Create linkable assets** — original research, infographics, comprehensive guides
+2. **Guest posting** — write articles for relevant South African publications
+3. **Broken link building** — find broken links on other sites and suggest your content as a replacement
+4. **Local partnerships** — exchange links with complementary local businesses
+5. **Directory listings** — submit to quality South African business directories
+
+## What to Avoid
+
+- Buying links from link farms
+- Excessive reciprocal linking
+- Automated link building tools
+- Links from irrelevant or spammy sites
+
+## Building Links for South African Businesses
+
+Focus on earning links from South African domain extensions (.co.za), local business organisations, and industry-specific publications. Quality always trumps quantity.
+
+We use ethical, white-hat link building to improve our clients' search authority.`,
+  },
+  {
+    slug: "on-page-seo-best-practices",
+    title: "On-Page SEO Best Practices — Optimise Every Page for Search Engines",
+    description: "Master on-page SEO with these best practices for title tags, meta descriptions, headings, content, and internal linking to improve your rankings.",
+    date: "2026-11-18",
+    readTime: "8 min read",
+    category: "SEO",
+    tags: ["on-page SEO", "SEO best practices", "content optimisation", "meta tags", "rankings"],
+    author: "Stopher Malik",
+    content: `On-page SEO refers to optimising individual web pages to rank higher and earn more relevant traffic. Here's how to optimise every page.
+
+## Title Tags
+
+Your title tag is the most important on-page SEO element. It appears in search results and browser tabs.
+
+- Include your primary keyword near the beginning
+- Keep under 60 characters
+- Make it compelling to encourage clicks
+- Use unique titles for every page
+
+## Meta Descriptions
+
+While not a direct ranking factor, meta descriptions impact click-through rates.
+
+- Write 150-160 characters
+- Include the primary keyword naturally
+- Add a clear call to action
+- Differentiate from competitors
+
+## Heading Structure
+
+Use a clear hierarchy: H1 for the page title, H2 for main sections, H3 for subsections.
+
+- Only use one H1 per page
+- Include keywords in headings naturally
+- Break up content with descriptive headings
+
+## Content Optimisation
+
+- Write comprehensive content that answers user questions
+- Include keywords naturally throughout
+- Use bullet points and numbered lists for readability
+- Add internal links to related pages
+- Optimise images with descriptive alt text
+
+## URL Structure
+
+Use clean, descriptive URLs with hyphens separating words. Avoid parameters and unnecessary numbers.
+
+We apply these best practices to every page we build, ensuring strong SEO foundations.`,
+  },
+  {
+    slug: "voice-search-seo-optimization",
+    title: "Voice Search SEO Optimisation — Prepare for the Future of Search",
+    description: "Learn how to optimise your website for voice search and capture traffic from the growing number of voice-activated searches in South Africa.",
+    date: "2026-11-21",
+    readTime: "7 min read",
+    category: "SEO",
+    tags: ["voice search", "SEO", "voice optimisation", "future trends", "South Africa"],
+    author: "Stopher Malik",
+    content: `Voice search is growing rapidly in South Africa. With the rise of smartphones and smart speakers, more people are searching using natural language.
+
+## How Voice Search Differs
+
+Voice searches are longer, more conversational, and often phrased as questions. Instead of typing "web designer Johannesburg", someone might ask "Who is the best web designer in Johannesburg?"
+
+## Optimising for Voice Search
+
+1. **Target long-tail keywords** — focus on natural language phrases
+2. **Create FAQ content** — answer common questions your customers ask
+3. **Use structured data** — mark up content with FAQ and HowTo schema
+4. **Optimise for local search** — many voice searches are location-based
+5. **Improve page speed** — voice search results need to load fast
+
+## Featured Snippets
+
+Voice assistants often read featured snippets as answers. To capture these:
+
+- Answer questions directly and concisely
+- Use lists and tables for structured information
+- Format content with clear headings
+
+## Local Voice Search
+
+"Near me" searches are common in voice queries. Ensure your Google Business Profile is optimised and your NAP information is consistent everywhere.
+
+The future of search is conversational. Start optimising for voice today to stay ahead.`,
+  },
+  {
+    slug: "seo-analytics-reporting-guide",
+    title: "SEO Analytics and Reporting — Measure What Matters",
+    description: "Learn how to track, measure, and report on your SEO performance using analytics tools that show real business impact.",
+    date: "2026-11-24",
+    readTime: "9 min read",
+    category: "SEO",
+    tags: ["SEO analytics", "reporting", "Google Analytics", "Google Search Console", "measurement"],
+    author: "Stopher Malik",
+    content: `You can't improve what you don't measure. SEO analytics helps you understand what's working and where to focus your efforts.
+
+## Key Metrics to Track
+
+- **Organic traffic** — visitors from search engines
+- **Keyword rankings** — positions for target keywords
+- **Click-through rate (CTR)** — percentage of searchers who click your result
+- **Conversion rate** — percentage of visitors who take desired action
+- **Bounce rate** — percentage of visitors who leave without interacting
+
+## Essential Tools
+
+- **Google Search Console** — monitor search performance, indexing issues, and core web vitals
+- **Google Analytics 4** — track user behaviour, traffic sources, and conversions
+- **Keyword tracking tools** — monitor ranking changes over time
+
+## Building an SEO Report
+
+A good SEO report tells a story. Include:
+
+1. Executive summary of key achievements
+2. Traffic trends with month-over-month comparisons
+3. Keyword ranking improvements
+4. Technical SEO health status
+5. Conversion and goal completion data
+6. Recommendations for the next period
+
+## Reporting Frequency
+
+- Weekly — quick traffic and ranking checks
+- Monthly — comprehensive performance analysis
+- Quarterly — strategic review and goal setting
+
+We provide detailed monthly reports to all SEO clients, showing clear ROI from their investment.`,
+  },
+  {
+    slug: "ecommerce-website-development-south-africa",
+    title: "E-Commerce Website Development South Africa — Build Your Online Store",
+    description: "A complete guide to building an e-commerce website in South Africa, from platform selection to payment gateway integration and launch.",
+    date: "2026-11-27",
+    readTime: "10 min read",
+    category: "Business Growth",
+    tags: ["e-commerce", "online store", "South Africa", "payment gateways", "online shopping"],
+    author: "Stopher Malik",
+    content: `E-commerce in South Africa is growing rapidly. Building the right online store can open new revenue streams for your business.
+
+## Choosing an E-Commerce Platform
+
+- **Shopify** — best for beginners, monthly subscription, easy setup
+- **WooCommerce** — best for WordPress users, more customisation
+- **Custom build** — best for unique requirements, full control
+
+## Essential E-Commerce Features
+
+1. **Product catalogue** — organised with categories, filters, and search
+2. **Shopping cart** — smooth add-to-cart and checkout experience
+3. **Payment gateway** — integrate with PayFast, Yoco, or SnapScan
+4. **Shipping calculator** — show accurate delivery costs
+5. **Order management** — track orders from placement to delivery
+
+## South African Payment Gateways
+
+- PayFast — popular, supports all major cards
+- Yoco — good for small businesses with card machines
+- SnapScan — mobile payment option
+- Ozow — instant EFT payments
+- PayPal — for international customers
+
+## Mobile Optimisation
+
+Over 70% of South Africans access the internet via mobile. Your e-commerce store must work flawlessly on smartphones.
+
+## SEO for E-Commerce
+
+- Optimise product pages with unique descriptions
+- Use category pages for broader keywords
+- Implement structured data for products
+- Build reviews and ratings for social proof
+
+We build e-commerce stores that are optimised for the South African market.`,
+  },
+  {
+    slug: "digital-marketing-strategy-small-business",
+    title: "Digital Marketing Strategy for Small Businesses — A Complete Framework",
+    description: "Build a comprehensive digital marketing strategy for your small business in South Africa. Covering SEO, social media, email, and paid advertising.",
+    date: "2026-11-30",
+    readTime: "10 min read",
+    category: "Business Growth",
+    tags: ["digital marketing", "small business", "strategy", "South Africa", "marketing plan"],
+    author: "Stopher Malik",
+    content: `A cohesive digital marketing strategy ensures every channel works together to grow your business.
+
+## The Foundation: Your Website
+
+Your website is the hub of your digital marketing. All channels should drive traffic back to your site where conversions happen.
+
+## Core Channels
+
+1. **SEO** — attract organic traffic from search engines
+2. **Social media** — build community and drive engagement
+3. **Email marketing** — nurture leads and retain customers
+4. **Paid advertising** — accelerate growth with targeted ads
+5. **Content marketing** — establish authority and earn trust
+
+## Building Your Strategy
+
+**Step 1: Define your goals**
+Revenue targets, lead volume, brand awareness metrics
+
+**Step 2: Know your audience**
+Create detailed buyer personas with demographics, pain points, and behaviour
+
+**Step 3: Audit your current presence**
+Website performance, social media engagement, existing traffic sources
+
+**Step 4: Choose your channels**
+Focus on 2-3 channels that reach your target audience most effectively
+
+**Step 5: Create a content plan**
+Map content to each stage of the buyer's journey
+
+**Step 6: Measure and optimise**
+Track key metrics and adjust your approach based on data
+
+## Budget Considerations
+
+Start with organic channels (SEO, content) and reinvest savings into paid channels as you grow.
+
+We help South African small businesses build and execute digital marketing strategies that deliver real results.`,
+  },
+  {
+    slug: "social-media-integration-website",
+    title: "Social Media Integration on Your Website — Best Practices for Engagement",
+    description: "Learn how to effectively integrate social media with your website to boost engagement, grow your following, and drive traffic between channels.",
+    date: "2026-12-02",
+    readTime: "6 min read",
+    category: "Business Growth",
+    tags: ["social media", "integration", "website", "engagement", "marketing"],
+    author: "Stopher Malik",
+    content: `Integrating social media with your website creates a cohesive brand experience and helps you grow both channels simultaneously.
+
+## Why Integrate Social Media?
+
+- Increase social following by making it easy to follow
+- Drive traffic from social platforms to your website
+- Show social proof through embedded feeds
+- Encourage content sharing and virality
+
+## Effective Integration Strategies
+
+1. **Social sharing buttons** — make it easy for visitors to share your content
+2. **Embedded feeds** — display your latest social posts on your site
+3. **Follow buttons** — encourage visitors to connect on social platforms
+4. **Social login** — allow users to sign up or comment using social accounts
+5. **User-generated content** — showcase customer posts and reviews
+
+## Best Practices
+
+- Place sharing buttons where they're visible but not intrusive
+- Don't slow down your site with heavy social widgets
+- Keep embedded feeds relevant to the page content
+- Track social referral traffic in Google Analytics
+- Ensure all social links open in new tabs
+
+## What to Avoid
+
+- Auto-playing video from social feeds
+- Pop-ups that block content
+- Too many social widgets slowing page load
+- Outdated social feeds that look abandoned
+
+We integrate social media thoughtfully, enhancing the user experience without compromising performance.`,
+  },
+  {
+    slug: "conversion-rate-optimization-guide",
+    title: "Conversion Rate Optimisation Guide — Turn Visitors Into Customers",
+    description: "Learn how to optimise your website for conversions. Proven strategies to turn more visitors into paying customers and grow your business.",
+    date: "2026-12-05",
+    readTime: "9 min read",
+    category: "Business Growth",
+    tags: ["conversion rate optimisation", "CRO", "lead generation", "sales", "website optimisation"],
+    author: "Stopher Malik",
+    content: `Conversion Rate Optimisation (CRO) is the practice of improving your website to increase the percentage of visitors who take a desired action.
+
+## Why CRO Matters
+
+Increasing your conversion rate means getting more results from your existing traffic. A 1% improvement in conversion rate can significantly impact your revenue.
+
+## Key Conversion Principles
+
+1. **Clear value proposition** — visitors should understand what you offer within seconds
+2. **Strong call-to-action** — tell visitors exactly what to do next
+3. **Social proof** — testimonials, reviews, and case studies build trust
+4. **Reduce friction** — remove obstacles that prevent conversions
+5. **Create urgency** — limited-time offers encourage action
+
+## Optimisation Strategies
+
+- **A/B testing** — test different headlines, buttons, and layouts
+- **Form optimisation** — reduce form fields, use clear labels
+- **Page speed improvements** — faster pages convert better
+- **Mobile optimisation** — ensure seamless mobile experience
+- **Trust signals** — display security badges, guarantees, and testimonials
+
+## Measuring CRO
+
+Track conversion rates for your primary goals: contact form submissions, phone calls, purchases, newsletter signups. Use tools like Google Analytics and heatmaps to understand user behaviour.
+
+We design every website with conversion in mind, from layout to copywriting.`,
+  },
+  {
+    slug: "online-reputation-management-business",
+    title: "Online Reputation Management — Protect and Grow Your Brand",
+    description: "Learn how to manage your online reputation effectively. Monitor reviews, respond to feedback, and build a positive digital presence for your business.",
+    date: "2026-12-07",
+    readTime: "7 min read",
+    category: "Business Growth",
+    tags: ["online reputation", "reputation management", "reviews", "brand", "customer trust"],
+    author: "Stopher Malik",
+    content: `Your online reputation can make or break your business. In South Africa, customers rely heavily on reviews and online presence when choosing service providers.
+
+## Why Reputation Matters
+
+- 93% of consumers read online reviews before making a purchase
+- Positive reviews increase trust and conversion rates
+- Negative reviews can significantly impact revenue
+- Your online reputation affects SEO rankings
+
+## Key Elements of Reputation Management
+
+1. **Monitor your presence** — set up alerts for brand mentions
+2. **Manage reviews** — respond to all reviews professionally
+3. **Create positive content** — publish case studies and testimonials
+4. **Address negative feedback** — resolve issues publicly and privately
+5. **Build authority** — contribute to industry conversations
+
+## Handling Negative Reviews
+
+- Respond quickly and professionally
+- Acknowledge the issue and apologise
+- Offer to resolve the matter offline
+- Learn from feedback and improve
+- Don't get defensive or argumentative
+
+## Building a Positive Reputation
+
+- Encourage satisfied customers to leave reviews
+- Showcase testimonials prominently on your website
+- Publish case studies that demonstrate your expertise
+- Maintain active social media profiles
+- Create valuable content that helps your audience
+
+Your reputation is your most valuable asset. Protect it proactively.`,
+  },
+  {
+    slug: "brand-identity-website-design",
+    title: "Brand Identity in Website Design — Create a Cohesive Brand Experience",
+    description: "Learn how to translate your brand identity into a cohesive website design that builds recognition, trust, and loyalty with your audience.",
+    date: "2026-12-09",
+    readTime: "8 min read",
+    category: "Branding",
+    tags: ["brand identity", "web design", "branding", "visual identity", "cohesion"],
+    author: "Stopher Malik",
+    content: `Your website is often the first interaction potential customers have with your brand. A cohesive brand identity across your site builds trust and recognition.
+
+## What Is Brand Identity?
+
+Brand identity is the visual and verbal expression of your brand. It includes your logo, colour palette, typography, imagery, tone of voice, and overall personality.
+
+## Translating Brand to Web
+
+1. **Colour palette** — use your brand colours consistently across all design elements
+2. **Typography** — choose web-safe fonts that reflect your brand personality
+3. **Imagery style** — use consistent photo styles, illustration approaches, or iconography
+4. **Tone of voice** — ensure copywriting matches your brand personality
+5. **Design patterns** — use consistent button styles, spacing, and layouts
+
+## Why Consistency Matters
+
+- **Recognition** — consistent branding makes your business memorable
+- **Trust** — professionalism signals reliability to potential customers
+- **Differentiation** — strong branding sets you apart from competitors
+- **Emotional connection** — cohesive branding creates a feeling of familiarity
+
+## Brand Touchpoints on Your Website
+
+- Header and navigation design
+- Button styles and interactions
+- Form design and feedback messages
+- Error pages and 404 designs
+- Email templates linked from your site
+
+Every element of your website should reinforce your brand identity. We build websites that are true to your brand.`,
+  },
+  {
+    slug: "color-psychology-in-web-design",
+    title: "Colour Psychology in Web Design — How Colours Influence Behaviour",
+    description: "Understand how colour psychology affects user behaviour on your website and learn how to choose the right colour palette for your brand.",
+    date: "2026-12-11",
+    readTime: "7 min read",
+    category: "Branding",
+    tags: ["colour psychology", "web design", "colour theory", "user behaviour", "branding"],
+    author: "Stopher Malik",
+    content: `Colours evoke emotions and influence behaviour. Understanding colour psychology helps you design a website that connects with your audience on a deeper level.
+
+## The Psychology of Colours
+
+- **Blue** — trust, professionalism, security (used by banks and tech companies)
+- **Green** — growth, health, nature, wealth (used by eco-friendly and financial brands)
+- **Red** — urgency, excitement, passion (used by food and retail brands)
+- **Yellow** — optimism, warmth, clarity (used to grab attention)
+- **Orange** — energy, enthusiasm, affordability (used by creative brands)
+- **Purple** — luxury, creativity, wisdom (used by premium brands)
+- **Black** — sophistication, power, elegance (used by luxury brands)
+- **White** — simplicity, cleanliness, minimalism (used by modern brands)
+
+## Applying Colour Psychology
+
+1. **Primary colour** — represents your brand's core personality
+2. **Secondary colours** — support and complement the primary colour
+3. **Accent colour** — used for calls-to-action and important elements
+4. **Neutral colours** — backgrounds, text, and structural elements
+
+## Colour and Conversions
+
+Your call-to-action buttons should use a contrasting accent colour that stands out from the rest of the page. Red, orange, and green often perform well for CTAs.
+
+## Accessibility Considerations
+
+Ensure sufficient contrast between text and background colours. About 8% of men have some form of colour blindness, so don't rely solely on colour to convey information.
+
+We help brands choose colour palettes that look premium and drive results.`,
+  },
+  {
+    slug: "typography-guide-for-websites",
+    title: "Typography Guide for Websites — Choose Fonts That Elevate Your Brand",
+    description: "Learn how to choose and pair website fonts that enhance readability, reinforce brand identity, and create a premium user experience.",
+    date: "2026-12-13",
+    readTime: "8 min read",
+    category: "Branding",
+    tags: ["typography", "fonts", "web design", "branding", "readability"],
+    author: "Stopher Malik",
+    content: `Typography is one of the most important elements of web design. The right fonts make your site look professional and improve readability.
+
+## Anatomy of Great Web Typography
+
+1. **Readability** — fonts must be easy to read on all screen sizes
+2. **Hierarchy** — clear distinction between headings, subheadings, and body text
+3. **Pairing** — complementary font combinations create visual interest
+4. **Performance** — web fonts should load quickly without blocking content
+
+## Choosing Fonts for Your Brand
+
+- **Serif fonts** (like Fraunces) — traditional, authoritative, premium
+- **Sans-serif fonts** (like Space Grotesk) — modern, clean, approachable
+- **Display fonts** — decorative, best used sparingly for headlines
+- **Monospace fonts** — technical, coding, or editorial applications
+
+## Font Pairing Strategies
+
+- **Contrast pairing** — pair a serif heading with a sans-serif body
+- **Same family** — use different weights from the same font family
+- **Superfamily** — fonts designed as a set with both serif and sans-serif versions
+
+## Technical Considerations
+
+- Use system fonts for faster loading
+- Limit to 2-3 font families per website
+- Specify fallback fonts for when custom fonts fail to load
+- Use font-display: swap for optimal performance
+- Test on different devices and browsers
+
+## Typography on Mobile
+
+Body text should be at least 16px on mobile devices. Line height should be 1.5-1.75 for optimal readability. Keep line length to 50-75 characters.
+
+We select and implement typography that elevates your brand and delights your visitors.`,
+  },
+  {
+    slug: "branding-strategy-for-small-businesses",
+    title: "Branding Strategy for Small Businesses — Stand Out in a Crowded Market",
+    description: "Build a powerful branding strategy for your small business. Learn how to define your brand, differentiate from competitors, and connect with customers.",
+    date: "2026-12-15",
+    readTime: "9 min read",
+    category: "Branding",
+    tags: ["branding strategy", "small business", "brand identity", "differentiation", "South Africa"],
+    author: "Stopher Malik",
+    content: `Strong branding helps small businesses compete with larger companies. A well-defined brand creates recognition, trust, and customer loyalty.
+
+## What Is Branding?
+
+Branding is more than a logo. It's the entire experience customers have with your business — from your website to your customer service to the emotions they associate with your brand.
+
+## Building Your Brand Strategy
+
+**Step 1: Define your purpose**
+Why does your business exist beyond making money? What problem do you solve?
+
+**Step 2: Know your audience**
+Who are your ideal customers? What are their needs, desires, and pain points?
+
+**Step 3: Define your personality**
+If your brand was a person, how would they speak, dress, and behave?
+
+**Step 4: Position yourself**
+How are you different from competitors? What makes you the best choice?
+
+**Step 5: Create visual identity**
+Logo, colours, typography, imagery that reflect your brand personality
+
+## Branding Elements for Your Website
+
+- Consistent visual language across all pages
+- Brand voice in all copywriting
+- Unique value proposition prominently displayed
+- Brand story that connects emotionally with visitors
+- Trust signals that reinforce credibility
+
+## Measuring Brand Success
+
+Track brand awareness through search volume for your brand name, direct traffic to your website, and customer referral rates.
+
+A strong brand is your business's most valuable asset. We help small businesses build brands that stand out and connect.`,
+  },
+  {
+    slug: "visual-hierarchy-in-web-design",
+    title: "Visual Hierarchy in Web Design — Guide the User's Eye",
+    description: "Learn how to use visual hierarchy principles to guide visitors' attention, improve usability, and increase conversions on your website.",
+    date: "2026-12-17",
+    readTime: "7 min read",
+    category: "Branding",
+    tags: ["visual hierarchy", "web design", "user experience", "layout", "conversion"],
+    author: "Stopher Malik",
+    content: `Visual hierarchy is the arrangement of design elements in order of importance. It guides the user's eye through your content and towards your desired action.
+
+## Why Visual Hierarchy Matters
+
+Without clear hierarchy, visitors feel overwhelmed and leave. With good hierarchy, they naturally flow through your content and take the actions you want.
+
+## Principles of Visual Hierarchy
+
+1. **Size and scale** — larger elements attract more attention
+2. **Colour and contrast** — bright or contrasting colours stand out
+3. **Whitespace** — space around elements signals importance
+4. **Alignment** — consistent alignment creates order and readability
+5. **Repetition** — repeating patterns create familiarity and guide navigation
+6. **Proximity** — related items placed close together are perceived as a group
+
+## Applying Hierarchy to Your Website
+
+- **Headlines** — use large, bold text that commands attention
+- **Subheadings** — secondary text that organises content
+- **Body text** — readable, comfortable size for longer reading
+- **Call-to-action** — use contrast and size to make buttons impossible to miss
+- **Navigation** — clearly distinguishable from content
+
+## The F-Pattern
+
+Studies show users scan websites in an F-shaped pattern: they read the top line across, then scan down the left side. Place your most important information along this path.
+
+## Mobile Hierarchy
+
+On mobile, prioritise even more aggressively. Space is limited, so every element must earn its place.
+
+We design every page with intentional visual hierarchy that guides users toward conversion.`,
   },
 ];
 
