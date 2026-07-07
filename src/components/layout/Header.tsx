@@ -30,7 +30,7 @@ export function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-700 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled
           ? "bg-[#0A0A0F]/80 backdrop-blur-2xl border-b border-white/[0.04]"
           : "bg-transparent"
@@ -39,7 +39,7 @@ export function Header() {
       <nav className="max-w-7xl mx-auto px-8 h-20 md:h-24 flex items-center justify-between">
         <Link
           href="/"
-          className="text-sm font-display tracking-[0.15em] text-[var(--color-text-primary)] font-medium hover:opacity-70 transition-opacity duration-500"
+          className="text-sm uppercase tracking-[0.3em] text-[var(--color-text-primary)] font-medium hover:opacity-70 transition-opacity duration-500"
         >
           SMK
         </Link>
@@ -49,10 +49,9 @@ export function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-[12px] uppercase tracking-[0.18em] text-[var(--color-text-muted)] hover:text-[var(--color-text-primary)] transition-all duration-500 relative group"
+              className="text-[11px] uppercase tracking-[0.2em] text-[var(--color-text-muted)] hover:text-[var(--color-text-primary)] transition-colors duration-300"
             >
               {link.label}
-              <span className="absolute -bottom-1 left-0 w-0 h-px bg-[var(--color-accent)] transition-all duration-500 group-hover:w-full" />
             </Link>
           ))}
         </div>
@@ -60,7 +59,7 @@ export function Header() {
         <div className="hidden md:flex items-center gap-6">
           <Link
             href="/contact"
-            className="px-6 py-2.5 rounded-full bg-[var(--color-accent)] text-[#0A0A0F] text-[12px] font-semibold uppercase tracking-[0.12em] hover:bg-[var(--color-accent-hover)] transition-all duration-500 hover:shadow-[0_0_30px_rgba(191,255,0,0.2)]"
+            className="px-6 py-2.5 rounded-full bg-[var(--color-accent)] text-[#0A0A0F] text-[11px] font-bold uppercase tracking-[0.12em] hover:bg-[var(--color-accent-hover)] transition-all duration-300"
           >
             Start a Project
           </Link>
@@ -78,11 +77,11 @@ export function Header() {
       <AnimatePresence>
         {mobileOpen && (
           <motion.div
-            initial={{ opacity: 0, backdropFilter: "blur(0px)" }}
-            animate={{ opacity: 1, backdropFilter: "blur(40px)" }}
-            exit={{ opacity: 0, backdropFilter: "blur(0px)" }}
-            transition={{ duration: 0.5 }}
-            className="fixed inset-0 z-40 bg-[#0A0A0F]/98 flex flex-col items-center justify-center gap-12 md:hidden"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.3 }}
+            className="fixed inset-0 z-40 bg-[#0A0A0F]/95 backdrop-blur-2xl flex flex-col items-center justify-center gap-12 md:hidden"
           >
             {navLinks.map((link) => (
               <Link
@@ -97,7 +96,7 @@ export function Header() {
             <Link
               href="/contact"
               onClick={() => setMobileOpen(false)}
-              className="mt-6 px-8 py-4 rounded-full bg-[var(--color-accent)] text-[#0A0A0F] text-sm font-semibold uppercase tracking-wider"
+              className="mt-6 px-8 py-4 rounded-full bg-[var(--color-accent)] text-[#0A0A0F] text-sm font-bold uppercase tracking-wider"
             >
               Start a Project
             </Link>

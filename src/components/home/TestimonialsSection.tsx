@@ -15,18 +15,18 @@ export function TestimonialsSection() {
   }, []);
 
   return (
-    <section className="relative px-8 md:px-12 lg:px-20 py-32 md:py-44 bg-[var(--color-bg)] overflow-hidden">
+    <section className="relative px-8 md:px-12 lg:px-20 py-28 md:py-36 bg-[var(--color-bg)] overflow-hidden">
       <div className="mx-auto max-w-4xl relative z-10 text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
+          viewport={{ once: true, margin: "-80px" }}
+          transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
         >
           <p className="text-label mb-5">✦ Client Stories</p>
         </motion.div>
 
-        <div className="relative min-h-[200px] md:min-h-[180px] mt-12">
+        <div className="relative min-h-[200px] md:min-h-[180px] mt-10">
           <AnimatePresence mode="wait">
             <motion.div
               key={active}
@@ -34,15 +34,15 @@ export function TestimonialsSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
-              transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+              transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
             >
               <blockquote
-                className="heading-md max-w-3xl mx-auto text-balance font-display italic"
+                className="heading-md max-w-3xl mx-auto font-[var(--font-display)] italic"
                 style={{ color: "var(--color-text-primary)" }}
               >
                 &ldquo;{testimonials[active].quote}&rdquo;
               </blockquote>
-              <div className="mt-10">
+              <div className="mt-8">
                 <p className="text-sm font-medium text-[var(--color-text-primary)]">
                   {testimonials[active].name}
                 </p>
@@ -54,7 +54,7 @@ export function TestimonialsSection() {
           </AnimatePresence>
         </div>
 
-        <div className="flex items-center justify-center gap-2 mt-12">
+        <div className="flex items-center justify-center gap-2 mt-10">
           {testimonials.map((_, i) => (
             <button
               key={i}

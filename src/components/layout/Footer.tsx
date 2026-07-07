@@ -5,9 +5,9 @@ export function Footer() {
   return (
     <footer className="border-t border-white/[0.04] bg-[var(--color-bg)]">
       <div className="max-w-7xl mx-auto px-8 md:px-12 lg:px-20 py-16 md:py-20">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-10 md:gap-12 mb-16">
-          <div className="col-span-2 md:col-span-1">
-            <Link href="/" className="text-lg font-display tracking-[-0.02em] text-[var(--color-text-primary)]">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-8 mb-12">
+          <div className="md:col-span-1">
+            <Link href="/" className="text-lg font-[var(--font-display)] text-[var(--color-text-primary)]">
               SMK
             </Link>
             <p className="mt-4 text-sm leading-relaxed text-[var(--color-text-muted)] max-w-xs">
