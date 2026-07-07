@@ -91,7 +91,7 @@ export default function BlogPage() {
                     onClick={() => setActiveCategory(cat)}
                     className={`px-4 py-2 text-[12px] font-bold uppercase tracking-wider rounded-full border transition-all duration-300 ${
                       isActive
-                        ? "bg-[var(--color-accent)] text-[#171410] border-[var(--color-accent)]"
+                        ? "bg-[var(--color-accent)] text-[#0A0A0F] border-[var(--color-accent)]"
                         : "text-[var(--color-text-muted)] hover:text-[var(--color-text-primary)]"
                     }`}
                     style={!isActive ? { borderColor: "var(--color-border)" } : undefined}
@@ -100,7 +100,7 @@ export default function BlogPage() {
                     <span
                       className={`ml-2 text-[11px] ${
                         isActive
-                          ? "text-[#171410]/60"
+                          ? "text-[#0A0A0F]/60"
                           : "text-[var(--color-text-dim)]"
                       }`}
                     >

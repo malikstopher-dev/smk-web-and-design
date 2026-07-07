@@ -13,7 +13,8 @@ const shortDescriptions: Record<string, string> = {
 
 export function ServicesSection() {
   return (
-    <section className="relative px-6 md:px-12 lg:px-20 py-32 md:py-48 bg-[var(--color-bg)]">
+    <section className="relative px-6 md:px-12 lg:px-20 py-32 md:py-48">
+      <div className="section-light" aria-hidden="true" />
       <div className="mx-auto max-w-7xl relative z-10">
         <AnimatedReveal>
           <SectionLabel>Services</SectionLabel>
@@ -32,7 +33,7 @@ export function ServicesSection() {
                   className="absolute inset-0 rounded-2xl transition-opacity duration-500 opacity-0 group-hover:opacity-100 pointer-events-none"
                   style={{ background: "var(--color-accent-soft)" }}
                 />
-                <span className="relative z-10 font-mono text-[11px] uppercase tracking-[0.15em] shrink-0" style={{ color: "var(--color-text-dim)", width: 32 }}>
+                <span className="relative z-10 text-[13px] font-mono shrink-0" style={{ color: "var(--color-text-dim)", width: 32 }}>
                   {service.number}
                 </span>
                 <span className="relative z-10 text-xl md:text-3xl font-[var(--font-display)] transition-transform duration-500 group-hover:translate-x-1" style={{ color: "var(--color-text-primary)", fontWeight: 600 }}>
@@ -49,7 +50,7 @@ export function ServicesSection() {
         <div className="mt-16">
           <Link
             href="/services"
-            className="text-sm transition-colors uppercase tracking-[0.2em] font-mono"
+            className="text-sm transition-colors uppercase tracking-[0.2em]"
             style={{ color: "var(--color-text-dim)" }}
           >
             View All Services →

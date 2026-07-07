@@ -5,7 +5,8 @@ import { AnimatedReveal, StaggerReveal, StaggerItem, SectionLabel, SectionHeadin
 
 export function ProcessSection() {
   return (
-    <section className="relative px-6 md:px-12 lg:px-20 py-32 md:py-48 overflow-hidden bg-[var(--color-bg)]">
+    <section className="relative px-6 md:px-12 lg:px-20 py-32 md:py-48 overflow-hidden">
+      <div className="section-light" aria-hidden="true" />
       <div className="mx-auto max-w-7xl relative z-10">
         <AnimatedReveal>
           <SectionLabel>Process</SectionLabel>
@@ -18,8 +19,8 @@ export function ProcessSection() {
               <StaggerItem key={step.number} className="flex items-start">
                 <div className="flex flex-col items-start gap-6 w-72">
                   <span
-                    className="text-[120px] font-bold leading-none select-none font-[var(--font-display)]"
-                    style={{ color: "var(--color-text-dim)" }}
+                    className="text-[120px] font-bold leading-none select-none"
+                    style={{ color: "rgba(245, 242, 236, 0.04)", fontFamily: "var(--font-display)" }}
                   >
                     {step.number}
                   </span>
@@ -41,8 +42,8 @@ export function ProcessSection() {
             <AnimatedReveal key={step.number}>
               <div className="border-t border-[var(--color-border)] pt-8">
                 <span
-                  className="text-[64px] font-bold leading-none select-none font-[var(--font-display)]"
-                  style={{ color: "var(--color-text-dim)" }}
+                  className="text-[64px] font-bold leading-none select-none"
+                  style={{ color: "rgba(245, 242, 236, 0.04)", fontFamily: "var(--font-display)" }}
                 >
                   {step.number}
                 </span>

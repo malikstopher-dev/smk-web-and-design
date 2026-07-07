@@ -76,7 +76,7 @@ export default function AboutPage() {
               {stats.map((stat) => (
                 <StaggerItem key={stat.label}>
                   <div className="text-center rounded-2xl border p-8" style={{ background: "var(--color-surface)", borderColor: "var(--color-border)" }}>
-                    <stat.icon className="w-8 h-8 mx-auto mb-4" style={{ color: "var(--color-spot-cobalt, #2C4A8A)" }} />
+                    <stat.icon className="w-8 h-8 mx-auto mb-4" style={{ color: "var(--color-accent)" }} />
                     <p className="text-4xl md:text-5xl font-[var(--font-display)] leading-none" style={{ color: "var(--color-text-primary)" }}>
                       {stat.value}
                     </p>
@@ -135,7 +135,7 @@ export default function AboutPage() {
               {values.map((value) => (
                 <StaggerItem key={value.title}>
                   <div className="rounded-2xl border p-8 h-full" style={{ background: "var(--color-surface)", borderColor: "var(--color-border)" }}>
-                    <value.icon className="w-6 h-6 mb-4" style={{ color: "var(--color-spot-cobalt, #2C4A8A)" }} />
+                    <value.icon className="w-6 h-6 mb-4" style={{ color: "var(--color-accent)" }} />
                     <h3 className="text-lg font-[var(--font-display)] mb-3" style={{ color: "var(--color-text-primary)" }}>
                       {value.title}
                     </h3>

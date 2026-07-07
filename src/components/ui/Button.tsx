@@ -24,12 +24,12 @@ export function Button({
   disabled = false,
   external = false,
 }: ButtonProps) {
-  const base = "inline-flex items-center gap-3 rounded-full px-8 py-4 text-sm font-semibold uppercase tracking-wider transition-all duration-300";
+  const base = "inline-flex items-center gap-3 rounded-full px-8 py-4 text-sm font-bold uppercase tracking-wider transition-all duration-300";
 
   const variants = {
-    primary: "bg-[var(--color-accent)] text-[#171410] hover:bg-white",
-    outline: "border border-[var(--color-border)] text-[var(--color-text-muted)] hover:border-[var(--color-accent-border)] hover:text-[var(--color-accent)]",
-    ghost: "text-[var(--color-text-muted)] hover:text-[var(--color-text-primary)]",
+    primary: "bg-[var(--color-accent)] text-[#0A0A0F] hover:bg-white shadow-[0_0_40px_rgba(200,255,0,0.25)]",
+    outline: "border border-white/15 text-white/60 hover:border-[var(--color-accent)]/50 hover:text-[var(--color-accent)]",
+    ghost: "text-[var(--color-accent)] hover:opacity-80",
   };
 
   const classes = `${base} ${variants[variant]} ${className}`;

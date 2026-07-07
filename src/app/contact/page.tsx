@@ -51,8 +51,8 @@ export default function ContactPage() {
               <AnimatedReveal>
                 {submitted ? (
                   <div className="rounded-2xl border p-10 text-center" style={{ background: "var(--color-surface)", borderColor: "var(--color-border)" }}>
-                    <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6" style={{ background: "rgba(44, 74, 138, 0.12)" }}>
-                      <Send className="w-8 h-8" style={{ color: "var(--color-spot-cobalt, #2C4A8A)" }} />
+                    <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6" style={{ background: "rgba(191,255,0,0.1)" }}>
+                      <Send className="w-8 h-8" style={{ color: "var(--color-accent)" }} />
                     </div>
                     <h3 className="text-2xl font-[var(--font-display)] mb-3" style={{ color: "var(--color-text-primary)" }}>
                       Message Sent!
@@ -125,8 +125,8 @@ export default function ContactPage() {
                 <StaggerItem>
                   <div className="rounded-2xl border p-6 mb-4" style={{ background: "var(--color-surface)", borderColor: "var(--color-border)" }}>
                     <div className="flex items-start gap-4">
-                      <div className="w-10 h-10 rounded-full flex items-center justify-center shrink-0" style={{ background: "rgba(44, 74, 138, 0.12)" }}>
-                        <Mail className="w-5 h-5" style={{ color: "var(--color-spot-cobalt, #2C4A8A)" }} />
+                      <div className="w-10 h-10 rounded-full flex items-center justify-center shrink-0" style={{ background: "rgba(191,255,0,0.1)" }}>
+                        <Mail className="w-5 h-5" style={{ color: "var(--color-accent)" }} />
                       </div>
                       <div>
                         <p className="text-sm font-medium mb-1" style={{ color: "var(--color-text-primary)" }}>Email Us</p>
@@ -144,8 +144,8 @@ export default function ContactPage() {
                 <StaggerItem>
                   <div className="rounded-2xl border p-6 mb-4" style={{ background: "var(--color-surface)", borderColor: "var(--color-border)" }}>
                     <div className="flex items-start gap-4">
-                      <div className="w-10 h-10 rounded-full flex items-center justify-center shrink-0" style={{ background: "rgba(44, 74, 138, 0.12)" }}>
-                        <Phone className="w-5 h-5" style={{ color: "var(--color-spot-cobalt, #2C4A8A)" }} />
+                      <div className="w-10 h-10 rounded-full flex items-center justify-center shrink-0" style={{ background: "rgba(191,255,0,0.1)" }}>
+                        <Phone className="w-5 h-5" style={{ color: "var(--color-accent)" }} />
                       </div>
                       <div>
                         <p className="text-sm font-medium mb-1" style={{ color: "var(--color-text-primary)" }}>Call Us</p>
@@ -163,8 +163,8 @@ export default function ContactPage() {
                 <StaggerItem>
                   <div className="rounded-2xl border p-6 mb-4" style={{ background: "var(--color-surface)", borderColor: "var(--color-border)" }}>
                     <div className="flex items-start gap-4">
-                      <div className="w-10 h-10 rounded-full flex items-center justify-center shrink-0" style={{ background: "rgba(44, 74, 138, 0.12)" }}>
-                        <MapPin className="w-5 h-5" style={{ color: "var(--color-spot-cobalt, #2C4A8A)" }} />
+                      <div className="w-10 h-10 rounded-full flex items-center justify-center shrink-0" style={{ background: "rgba(191,255,0,0.1)" }}>
+                        <MapPin className="w-5 h-5" style={{ color: "var(--color-accent)" }} />
                       </div>
                       <div>
                         <p className="text-sm font-medium mb-1" style={{ color: "var(--color-text-primary)" }}>Location</p>
@@ -177,8 +177,8 @@ export default function ContactPage() {
                 <StaggerItem>
                   <div className="rounded-2xl border p-6" style={{ background: "var(--color-surface)", borderColor: "var(--color-border)" }}>
                     <div className="flex items-start gap-4">
-                      <div className="w-10 h-10 rounded-full flex items-center justify-center shrink-0" style={{ background: "rgba(44, 74, 138, 0.12)" }}>
-                        <MessageCircle className="w-5 h-5" style={{ color: "var(--color-spot-cobalt, #2C4A8A)" }} />
+                      <div className="w-10 h-10 rounded-full flex items-center justify-center shrink-0" style={{ background: "rgba(191,255,0,0.1)" }}>
+                        <MessageCircle className="w-5 h-5" style={{ color: "var(--color-accent)" }} />
                       </div>
                       <div>
                         <p className="text-sm font-medium mb-1" style={{ color: "var(--color-text-primary)" }}>WhatsApp</p>
@@ -198,11 +198,11 @@ export default function ContactPage() {
 
               <AnimatedReveal delay={0.3}>
                 <div className="mt-8 rounded-2xl p-6 text-center" style={{ background: "var(--color-accent)" }}>
-                  <MessageCircle className="w-8 h-8 mx-auto mb-3" style={{ color: "var(--color-bg, #171410)" }} />
-                  <h3 className="text-lg font-[var(--font-display)] mb-2" style={{ color: "var(--color-bg, #171410)" }}>
+                  <MessageCircle className="w-8 h-8 mx-auto mb-3" style={{ color: "#0A0A0F" }} />
+                  <h3 className="text-lg font-[var(--font-display)] mb-2" style={{ color: "#0A0A0F" }}>
                     Prefer WhatsApp?
                   </h3>
-                  <p className="text-sm mb-4 leading-relaxed" style={{ color: "rgba(23, 20, 16, 0.7)" }}>
+                  <p className="text-sm mb-4 leading-relaxed" style={{ color: "rgba(10,10,15,0.7)" }}>
                     Get a quick response on WhatsApp. We&apos;re usually online.
                   </p>
                   <a
@@ -210,7 +210,7 @@ export default function ContactPage() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-bold uppercase tracking-wider transition-opacity"
-                    style={{ background: "var(--color-bg, #171410)", color: "white" }}
+                    style={{ background: "#0A0A0F", color: "white" }}
                   >
                     <MessageCircle className="w-4 h-4" />
                     Chat on WhatsApp
