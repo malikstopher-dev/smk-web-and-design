@@ -1,20 +1,33 @@
 @import "tailwindcss";
 
+@theme {
+  --color-ink: #171410;
+  --color-paper: #EFEAE5;
+  --color-graphite: #8B8579;
+  --color-spot-cobalt: #2C4A8A;
+  --color-spot-moss: #5C6B3F;
+  --color-spot-plum: #5C2E4A;
+  --color-spot-slate: #3D4A52;
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Instrument Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", "IBM Plex Mono", monospace;
+}
+
 :root {
-  --color-bg: #0A0A0F;
-  --color-surface: #111118;
-  --color-surface-2: #16161F;
-  --color-border: rgba(255, 255, 255, 0.06);
-  --color-border-hover: rgba(255, 255, 255, 0.14);
-  --color-accent: #BFFF00;
-  --color-accent-hover: #99CC00;
-  --color-accent-soft: rgba(191, 255, 0, 0.15);
-  --color-accent-border: rgba(191, 255, 0, 0.2);
-  --color-text-primary: #F5F2EC;
-  --color-text-muted: rgba(255, 255, 255, 0.65);
-  --color-text-dim: rgba(255, 255, 255, 0.35);
-  --font-display: 'Fraunces', Georgia, serif;
-  --font-body: 'Space Grotesk', system-ui, sans-serif;
+  --color-bg: #171410;
+  --color-surface: #1C1A16;
+  --color-surface-2: #22201C;
+  --color-border: rgba(139, 133, 121, 0.2);
+  --color-border-hover: rgba(139, 133, 121, 0.4);
+  --color-accent: #EFEAE5;
+  --color-accent-hover: #FFFFFF;
+  --color-accent-soft: rgba(239, 234, 229, 0.1);
+  --color-accent-border: rgba(239, 234, 229, 0.2);
+  --color-text-primary: #EFEAE5;
+  --color-text-muted: #8B8579;
+  --color-text-dim: rgba(139, 133, 121, 0.5);
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Instrument Sans", system-ui, sans-serif;
 }
 
 @layer base {
@@ -31,8 +44,8 @@
   }
 
   ::selection {
-    background: rgba(191, 255, 0, 0.2);
-    color: #fff;
+    background: rgba(44, 74, 138, 0.3);
+    color: #EFEAE5;
   }
 }
 
@@ -54,47 +67,16 @@
   inset: 0;
   z-index: 9999;
   pointer-events: none;
-  opacity: 0.03;
+  opacity: 0.02;
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   background-repeat: repeat;
   background-size: 256px 256px;
 }
 
-@utility gradient-glow {
-  background: radial-gradient(circle, var(--tw-gradient-from) 0%, transparent 65%);
-  filter: blur(120px);
-}
-
-@utility section-light {
-  position: absolute;
-  top: -20%;
-  left: -10%;
-  width: 80%;
-  height: 80%;
-  border-radius: 50%;
-  opacity: 0.3;
-  background: radial-gradient(ellipse at center, rgba(191, 255, 0, 0.04) 0%, transparent 60%);
-  filter: blur(100px);
-  pointer-events: none;
-}
-
-@utility section-light-2 {
-  position: absolute;
-  bottom: -10%;
-  right: -10%;
-  width: 60%;
-  height: 60%;
-  border-radius: 50%;
-  opacity: 0.2;
-  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.03) 0%, transparent 60%);
-  filter: blur(80px);
-  pointer-events: none;
-}
-
 @utility heading-hero {
   font-family: var(--font-display);
   font-size: clamp(72px, 10vw, 160px);
-  letter-spacing: -0.06em;
+  letter-spacing: -0.04em;
   line-height: 0.88;
 }
 
@@ -102,21 +84,21 @@
   font-family: var(--font-display);
   font-size: clamp(2.5rem, 6vw, 4.5rem);
   line-height: 1.02;
-  letter-spacing: -0.04em;
+  letter-spacing: -0.03em;
 }
 
 @utility heading-lg {
   font-family: var(--font-display);
   font-size: clamp(2rem, 4.5vw, 4rem);
   line-height: 1.05;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.02em;
 }
 
 @utility heading-md {
   font-family: var(--font-display);
   font-size: clamp(1.5rem, 3vw, 2.5rem);
   line-height: 1.15;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
 }
 
 @utility heading-sm {
@@ -129,6 +111,7 @@
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 0.25em;
+  font-family: var(--font-mono);
   color: var(--color-text-dim);
 }
 
@@ -138,10 +121,10 @@
   gap: 0.75rem;
   border-radius: 9999px;
   background-color: var(--color-accent);
-  color: #0A0A0F;
+  color: #171410;
   padding: 1rem 2rem;
   font-size: 0.875rem;
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   transition: all 0.2s;
@@ -155,16 +138,17 @@
   align-items: center;
   gap: 0.75rem;
   border-radius: 0.5rem;
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  color: rgba(255, 255, 255, 0.6);
+  border: 1px solid var(--color-border);
+  color: var(--color-text-muted);
   padding: 0.5rem 1.25rem;
   font-size: 0.875rem;
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   transition: all 0.2s;
+  font-family: var(--font-body);
   &:hover {
-    border-color: rgba(191, 255, 0, 0.5);
+    border-color: var(--color-accent-border);
     color: var(--color-accent);
   }
 }
@@ -172,28 +156,46 @@
 @utility process-line {
   width: 4rem;
   height: 1px;
-  background: rgba(255, 255, 255, 0.08);
+  background: var(--color-border);
   align-self: start;
   margin-top: 4rem;
 }
 
-@utility project-overlay {
+@utility section-light {
   position: absolute;
-  inset: 0;
-  background: linear-gradient(to top, var(--color-bg) 0%, transparent 50%);
-  opacity: 0;
-  transition: opacity 0.7s;
-  .group:hover & {
-    opacity: 1;
-  }
+  top: -20%;
+  left: -10%;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  opacity: 0.15;
+  background: radial-gradient(ellipse at center, rgba(239, 234, 229, 0.04) 0%, transparent 60%);
+  filter: blur(100px);
+  pointer-events: none;
 }
 
-@utility project-image {
-  object-fit: cover;
-  filter: grayscale(30%);
-  transition: transform 0.7s, filter 0.7s;
-  .group:hover & {
-    transform: scale(1.05);
+@utility section-light-2 {
+  position: absolute;
+  bottom: -10%;
+  right: -10%;
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+  opacity: 0.1;
+  background: radial-gradient(ellipse at center, rgba(139, 133, 121, 0.03) 0%, transparent 60%);
+  filter: blur(80px);
+  pointer-events: none;
+}
+
+@utility proof-card {
+  background-color: var(--color-paper, #EFEAE5);
+  color: #171410;
+  border-radius: 0;
+  position: relative;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
   }
 }
 
@@ -210,6 +212,14 @@
 @keyframes fade-in {
   from { opacity: 0; }
   to { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
 
 .animate-marquee {

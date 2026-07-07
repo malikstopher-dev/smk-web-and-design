@@ -32,7 +32,7 @@ export default async function ServiceDetailPage({ params }: Props) {
       <section className="relative section-padding px-6 md:px-12 lg:px-20 overflow-hidden">
         <div
           className="absolute top-[-20%] left-[-10%] w-[80%] h-[80%] rounded-full opacity-30 pointer-events-none"
-          style={{ background: "radial-gradient(ellipse at center, rgba(191, 255, 0, 0.05) 0%, transparent 60%)", filter: "blur(120px)" }}
+          style={{ background: "radial-gradient(ellipse at center, rgba(239, 234, 229, 0.04) 0%, transparent 60%)", filter: "blur(120px)" }}
           aria-hidden="true"
         />
         <div className="mx-auto max-w-7xl relative z-10">
@@ -70,7 +70,7 @@ export default async function ServiceDetailPage({ params }: Props) {
                 className="flex items-start gap-3 rounded-xl px-5 py-4 border"
                 style={{ background: "var(--color-surface)", borderColor: "var(--color-border)" }}
               >
-                <CheckCircle className="w-5 h-5 shrink-0 mt-0.5" style={{ color: "var(--color-accent)" }} />
+                <CheckCircle className="w-5 h-5 shrink-0 mt-0.5" style={{ color: "var(--color-spot-cobalt, #2C4A8A)" }} />
                 <span className="text-sm" style={{ color: "var(--color-text-primary)" }}>{feature}</span>
               </div>
             ))}

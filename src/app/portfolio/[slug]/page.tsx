@@ -153,7 +153,7 @@ export default async function ProjectDetailPage({ params }: Props) {
                         <span
                           key={tag}
                           className="text-[10px] uppercase tracking-[0.1em] px-2 py-1 rounded-full"
-                          style={{ color: "var(--color-accent)", background: "rgba(191,255,0,0.1)" }}
+                          style={{ color: "var(--color-spot-cobalt, #2C4A8A)", background: "rgba(44, 74, 138, 0.12)" }}
                         >
                           {tag}
                         </span>

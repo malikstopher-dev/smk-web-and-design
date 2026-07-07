@@ -69,7 +69,7 @@ export default function ServicesPage() {
                         </li>
                       ))}
                       {service.features.length > 4 && (
-                        <li className="text-[11px] uppercase tracking-[0.1em]" style={{ color: "var(--color-accent)" }}>
+                        <li className="text-[11px] uppercase tracking-[0.1em]" style={{ color: "var(--color-spot-cobalt, #2C4A8A)" }}>
                           +{service.features.length - 4} more
                         </li>
                       )}

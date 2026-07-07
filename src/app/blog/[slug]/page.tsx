@@ -140,7 +140,7 @@ export default async function BlogPostPage({ params }: Props) {
           </nav>
 
           <div className="flex items-center gap-3 mb-4">
-            <span className="inline-block px-3 py-1 text-[11px] font-bold uppercase tracking-wider rounded-full" style={{ background: "rgba(191,255,0,0.1)", color: "var(--color-accent)" }}>
+            <span className="inline-block px-3 py-1 text-[11px] font-bold uppercase tracking-wider rounded-full" style={{ background: "rgba(44, 74, 138, 0.12)", color: "var(--color-spot-cobalt, #2C4A8A)" }}>
               {post.category}
             </span>
           </div>

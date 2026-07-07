@@ -31,11 +31,11 @@ export function Header() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled ? "bg-[#0A0A0F]/90 backdrop-blur-xl border-b border-white/[0.06]" : "bg-transparent"
+        scrolled ? "bg-[#171410]/90 backdrop-blur-xl border-b border-[var(--color-border)]" : "bg-transparent"
       }`}
     >
       <nav className="max-w-7xl mx-auto px-6 h-16 md:h-20 flex items-center justify-between">
-        <Link href="/" className="text-sm uppercase tracking-[0.3em] text-white font-medium hover:opacity-80 transition-opacity">
+        <Link href="/" className="text-sm uppercase tracking-[0.3em] text-[var(--color-text-primary)] font-medium hover:opacity-80 transition-opacity font-mono">
           SMK
         </Link>
 
@@ -44,7 +44,7 @@ export function Header() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-[11px] uppercase tracking-[0.2em] text-white/60 hover:text-white transition-colors duration-300"
+              className="text-[11px] uppercase tracking-[0.2em] text-[var(--color-text-muted)] hover:text-[var(--color-text-primary)] transition-colors duration-300 font-body"
             >
               {link.label}
             </Link>
@@ -54,7 +54,7 @@ export function Header() {
         <div className="hidden md:flex items-center gap-6">
           <Link
             href="/contact"
-            className="px-5 py-2 rounded-lg bg-[var(--color-accent)] text-[#0A0A0F] text-sm font-bold hover:bg-white transition-colors"
+            className="px-5 py-2 rounded-full bg-[var(--color-accent)] text-[#171410] text-sm font-semibold hover:bg-white transition-colors"
           >
             Start Your Project
           </Link>
@@ -75,7 +75,7 @@ export function Header() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-40 bg-[#0A0A0F]/95 backdrop-blur-2xl flex flex-col items-center justify-center gap-10 md:hidden"
+            className="fixed inset-0 z-40 bg-[#171410]/95 backdrop-blur-2xl flex flex-col items-center justify-center gap-10 md:hidden"
           >
             {navLinks.map((link) => (
               <Link
@@ -90,7 +90,7 @@ export function Header() {
             <Link
               href="/contact"
               onClick={() => setMobileOpen(false)}
-              className="mt-6 px-8 py-4 rounded-full bg-[var(--color-accent)] text-[#0A0A0F] text-sm font-bold uppercase tracking-wider"
+              className="mt-6 px-8 py-4 rounded-full bg-[var(--color-accent)] text-[#171410] text-sm font-semibold uppercase tracking-wider"
             >
               Start Your Project
             </Link>

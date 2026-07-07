@@ -67,7 +67,7 @@ export default function PortfolioPage() {
                       </div>
                     </div>
                     <div className="p-5">
-                      <span className="text-[10px] uppercase tracking-[0.2em]" style={{ color: "var(--color-accent)" }}>
+                      <span className="text-[10px] uppercase tracking-[0.2em]" style={{ color: "var(--color-spot-cobalt, #2C4A8A)" }}>
                         {project.category}
                       </span>
                       <h3
