@@ -1,37 +1,32 @@
 "use client";
 
-import { AnimatedReveal } from "@/components/ui/AnimatedReveal";
+import { motion } from "framer-motion";
 
 export function CTASection() {
   return (
-    <section className="relative py-32 md:py-48 overflow-hidden">
-      <div className="absolute inset-0 pointer-events-none">
-        <div
-          className="absolute top-[-30%] left-[-10%] w-[80%] h-[80%] rounded-full"
-          style={{ background: "radial-gradient(ellipse at center, rgba(191, 255, 0, 0.05) 0%, transparent 60%)", filter: "blur(150px)" }}
-        />
-        <div
-          className="absolute bottom-[-20%] right-[-10%] w-[60%] h-[60%] rounded-full"
-          style={{ background: "radial-gradient(ellipse at center, rgba(255, 255, 255, 0.02) 0%, transparent 60%)", filter: "blur(120px)" }}
-        />
-        <div
-          className="absolute inset-0"
-          style={{ background: "radial-gradient(ellipse at center, transparent 40%, rgba(0,0,0,0.4) 100%)" }}
-        />
-      </div>
-
-      <div className="relative z-10 mx-auto max-w-7xl px-6 md:px-12 lg:px-20 text-center">
-        <AnimatedReveal>
-          <p className="text-label mb-6">Let&apos;s Work Together</p>
-          <h2 className="heading-xl max-w-4xl mx-auto" style={{ color: "var(--color-text-primary)" }}>
-            Ready to grow?
+    <section className="relative py-32 md:py-44 bg-[var(--color-bg)] overflow-hidden">
+      <div className="section-light" aria-hidden="true" />
+      <div className="relative z-10 mx-auto max-w-7xl px-8 md:px-12 lg:px-20 text-center">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+        >
+          <p className="text-label mb-6">✦ Let&apos;s Work Together</p>
+          <h2 className="heading-xl max-w-3xl mx-auto" style={{ color: "var(--color-text-primary)" }}>
+            Ready to grow your business?
           </h2>
           <div className="mt-12">
-            <a className="btn-accent text-base px-12 py-5" data-cursor="cta" href="/contact">
+            <a
+              className="btn-accent text-base px-12 py-5"
+              data-cursor="cta"
+              href="/contact"
+            >
               Book a Free Consultation →
             </a>
           </div>
-        </AnimatedReveal>
+        </motion.div>
       </div>
     </section>
   );

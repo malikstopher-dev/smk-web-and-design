@@ -1,0 +1,56 @@
+﻿node.exe :  ÔÜá Linting is disabled.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ( ÔÜá Linting is disabled.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+   Ôû▓ Next.js 15.5.19
+
+   Creating an optimized production build ...
+ Ô£ô Compiled successfully in 43s
+   Checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/62) ...
+   Generating static pages (15/62) 
+   Generating static pages (30/62) 
+   Generating static pages (46/62) 
+ Ô£ô Generating static pages (62/62)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                  Size  First Load JS
+Ôöî Ôùï /                                     5.15 kB         165 kB
+Ôö£ Ôùï /_not-found                             991 B         103 kB
+Ôö£ Ôùï /about                                3.93 kB         164 kB
+Ôö£ Ôùï /blog                                 2.61 kB         162 kB
+Ôö£ ÔùÅ /blog/[slug]                            625 B         112 kB
+Ôö£   Ôö£ /blog/website-design-johannesburg
+Ôö£   Ôö£ /blog/web-design-south-africa
+Ôö£   Ôö£ /blog/how-much-does-a-website-cost
+Ôö£   Ôöö [+21 more paths]
+Ôö£ Ôùï /contact                              3.11 kB         154 kB
+Ôö£ Ôùï /portfolio                            2.08 kB         162 kB
+Ôö£ ÔùÅ /portfolio/[slug]                       173 B         111 kB
+Ôö£   Ôö£ /portfolio/salem-home-innovation
+Ôö£   Ôö£ /portfolio/the-boma-cafe
+Ôö£   Ôö£ /portfolio/selrahc-architects
+Ôö£   Ôöö [+19 more paths]
+Ôö£ Ôùï /privacy                                130 B         103 kB
+Ôö£ Ôùï /robots.txt                             130 B         103 kB
+Ôö£ Ôùï /services                             1.89 kB         157 kB
+Ôö£ ÔùÅ /services/[slug]                        162 B         106 kB
+Ôö£   Ôö£ /services/website-design
+Ôö£   Ôö£ /services/e-commerce
+Ôö£   Ôö£ /services/local-seo
+Ôö£   Ôöö /services/website-maintenance
+Ôöö Ôùï /sitemap.xml                            130 B         103 kB
++ First Load JS shared by all              102 kB
+  Ôö£ chunks/255-98a0bdaa30757bda.js        46.2 kB
+  Ôö£ chunks/4bd1b696-c023c6e3521b1417.js   54.2 kB
+  Ôöö other shared chunks (total)           1.99 kB
+
+
+Ôùï  (Static)  prerendered as static content
+ÔùÅ  (SSG)     prerendered as static HTML (uses generateStaticParams)
+

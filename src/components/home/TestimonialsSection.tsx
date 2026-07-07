@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react";
 import { testimonials } from "@/lib/content";
-import { AnimatedReveal, SectionLabel } from "@/components/ui/AnimatedReveal";
 import { motion, AnimatePresence } from "framer-motion";
 
 export function TestimonialsSection() {
@@ -16,34 +15,38 @@ export function TestimonialsSection() {
   }, []);
 
   return (
-    <section className="relative px-6 md:px-12 lg:px-20 py-32 md:py-48 text-center overflow-hidden">
-      <div className="section-light-2" aria-hidden="true" />
-      <div className="mx-auto max-w-4xl relative z-10">
-        <AnimatedReveal>
-          <SectionLabel>Client Stories</SectionLabel>
-        </AnimatedReveal>
+    <section className="relative px-8 md:px-12 lg:px-20 py-32 md:py-44 bg-[var(--color-bg)] overflow-hidden">
+      <div className="mx-auto max-w-4xl relative z-10 text-center">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-100px" }}
+          transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
+        >
+          <p className="text-label mb-5">✦ Client Stories</p>
+        </motion.div>
 
-        <div className="relative min-h-[200px] md:min-h-[180px]">
+        <div className="relative min-h-[200px] md:min-h-[180px] mt-12">
           <AnimatePresence mode="wait">
             <motion.div
               key={active}
               className="absolute inset-0 flex flex-col items-center justify-center"
-              initial={{ opacity: 0, y: 15 }}
+              initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -15 }}
-              transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
+              exit={{ opacity: 0, y: -20 }}
+              transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
             >
               <blockquote
-                className="heading-md font-[var(--font-display)] leading-[1.15] max-w-3xl mx-auto text-balance"
+                className="heading-md max-w-3xl mx-auto text-balance font-display italic"
                 style={{ color: "var(--color-text-primary)" }}
               >
                 &ldquo;{testimonials[active].quote}&rdquo;
               </blockquote>
               <div className="mt-10">
-                <p className="text-sm font-medium" style={{ color: "var(--color-text-primary)" }}>
+                <p className="text-sm font-medium text-[var(--color-text-primary)]">
                   {testimonials[active].name}
                 </p>
-                <p className="text-sm mt-1" style={{ color: "var(--color-text-muted)" }}>
+                <p className="text-sm mt-1 text-[var(--color-text-muted)]">
                   {testimonials[active].role}
                 </p>
               </div>
